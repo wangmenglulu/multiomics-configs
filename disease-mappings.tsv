@@ -14,7 +14,7 @@ EFO:0000094	b-cell acute lymphoblastic leukemia	Bcellacutelymphoblasticleukemian
 EFO:0000292	bladder carcinoma	BladderCancer	
 MONDO:0001187	urinary bladder cancer	BladderUrinaryTractCancerNOS	
 		BlasticPlasmacytoidDendriticCellNeoplasm	
-		BLymphoblasticLeukemiaLymphoma	
+EFO:0000094	b-cell acute lymphoblastic leukemia	BLymphoblasticLeukemiaLymphoma	
 MONDO:0002129	bone cancer	BoneCancer	
 MONDO:0001657	brain cancer	BrainCancer	
 MONDO:0007254Ê	breast cancer	BreastCancer	
@@ -50,8 +50,8 @@ EFO:0005922	esophageal squamous cell carcinoma	EsophagealSquamousCellCarcinoma
 		EsophagogastricCarcinoma	
 EFO:0000174 	ewing sarcoma	Ewingssarcoma	
 EFO:1000256	Fibrolamellar Carcinoma	FibrolamellarCarcinoma	
-		GastrointestinalNeuroendocrineTumor	
-		GastrointestinalStromalTumor	
+MONDO:0024503	digestive system neuroendocrine neoplasm	GastrointestinalNeuroendocrineTumor	
+Orphanet:44890	gastrointestinal stromal tumor	GastrointestinalStromalTumor	
 EFO:0000514	germ cell tumor	GermCellTumor	
 		GestationalTrophoblasticDisease	
 EFO:0000519	glioblastoma multiforme	Glioblastoma	
