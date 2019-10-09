@@ -74,16 +74,16 @@ MONDO:0008903	lung cancer	Lungcancer
 MONDO:0008903	lung cancer	LungCancer	
 EFO:0001642	lymphoid neoplasm	LymphoidNeoplasm	
 EFO:0009001	mastocytosis	Mastocytosis	
-		MatureBCellNeoplasms	
+EFO:0000096	neoplasm of mature B-cells	MatureBCellNeoplasms	
 		MatureTandNKNeoplasms	
-		MedulloblastomaGroup	
+EFO:0002939	medulloblastoma	MedulloblastomaGroup	
 		MedulloblastomaSHH	
 		MedulloblastomaWNT	
 EFO:0000756	melanoma	Melanoma	
 EFO:0000588	mesothelioma	Mesothelioma	
 EFO:0003833	brain neoplasm	MiscellaneousBrainTumor	
 		MiscellaneousNeuroepithelialTumor	
-		MyelodysplasticMyeloproliferativeNeoplasms	
+EFO:1000388	myelodysplastic/myeloproliferative Neoplasm	MyelodysplasticMyeloproliferativeNeoplasms	
 EFO:0000198	myelodysplastic syndrome	MyelodysplasticSyndromes	
 EFO:0002427	myeloid neoplasm	MyeloidNeoplasm	
 EFO:1000388	Myelodysplastic/Myeloproliferative Neoplasm	MyeloproliferativeNeoplasms	
@@ -105,8 +105,8 @@ MONDO:0008170	ovarian cancer	Ovarian
 EFO:1000419	ovarian germ cell tumor	OvarianGermCellTumor	
 EFO:1000044	pancreatic adenocarcinoma	PancreaticAdenocarcinoma	
 EFO:0002618	pancreatic carcinoma	PancreaticCancer	
-		PenileCancer	
-		PeripheralNervousSystem	
+MONDO:0001325	penile cancer	PenileCancer	
+UBERON:0000010	peripheral nervous system	PeripheralNervousSystem	
 EFO:0000239	adrenal gland pheochromocytoma	Pheochromocytoma	
 EFO:0000272	astrocytoma	Pilocyticastrocytoma	
 MONDO:0021232	pineal body neoplasm	PinealTumor	
@@ -116,13 +116,13 @@ MONDO:0008315	prostate cancer	ProstateCancer
 		ProstateCancerNOS	
 MONDO:0008315	prostate cancer	Prostate	
 EFO:0002890	renal carcinoma	Renalcancer	
-		RenalCellCarcinoma	
-		RenalClearCellCarcinoma	
+EFO:0000681	renal cell carcinoma	RenalCellCarcinoma	
+EFO:0000681	renal cell carcinoma	RenalClearCellCarcinoma	
 EFO:0002890	renal carcinoma	Renal	
 		RenalNonClearCellCarcinoma	
 Orphanet:790	retinoblastoma	Retinoblastoma	
 EFO:0005701	malignant rhabdoid tumour	RhabdoidCancer	
-		Rhabdomyosarcoma	
+EFO:0002918	rhabdomyosarcoma	Rhabdomyosarcoma	
 MONDO:0004669	salivary gland cancer	SalivaryCancer	
 MONDO:0004669	salivary gland cancer	SalivaryGlandCancer	
 		SalivaryGlandTypeTumoroftheLung	
