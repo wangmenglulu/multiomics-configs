@@ -135,12 +135,12 @@ MONDO:0000956	small intestine cancer	SmallBowelCancer
 EFO:0000702	small cell lung carcinoma	SmallCellLungCancer	
 EFO:1001968	soft tissue sarcoma	SoftTissueSarcoma	
 EFO:1000541	soft tissue neoplasm	SoftTissueTumor	
-		StomachAdenocarcinoma	
-		Tcellacutelymphoblasticleukemia	
+EFO:0000503	gastric adenocarcinoma	StomachAdenocarcinoma	
+EFO:0000209	t-cell acute lymphoblastic leukemia	Tcellacutelymphoblasticleukemia	
 MONDO:0018079	thymic epithelial neoplasm	ThymicEpithelialTumor	
 EFO:0002626	thymus neoplasm	ThymicTumor	
 MONDO:0002108	thyroid cancer	ThyroidCancer	
-		TLymphoblasticLeukemiaLymphoma	
+EFO:0000209	t-cell acute lymphoblastic leukemia	TLymphoblasticLeukemiaLymphoma	
 		Tumor	
 		UndifferentiatedStomachAdenocarcinoma	
 EFO:0002914	uterine sarcoma	UterineSarcoma	
