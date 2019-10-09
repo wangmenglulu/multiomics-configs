@@ -21,43 +21,41 @@ MONDO:0007254Ê	breast cancer	BreastCancer
 EFO:0000186	invasive breast ductal carcinoma	BreastCancerNOS	
 MONDO:0007254Ê	breast cancer	Breast	
 MONDO:0002490	breast sarcoma	BreastSarcoma	
-		Burkittslymphoma	
+EFO:0000309	burkitt's lymphoma	Burkittslymphoma	
 		CancerofUnknownPrimary	
-		CervicalAdenocarcinoma	
-		CervicalCancer	
-		CervicalSquamousCellCarcinoma	
-		Cholangiocarcinoma	
-		ChoroidPlexusTumor	
-		CNSCancer	
-		CNS	
+EFO:0001416	cervical adenocarcinoma	CervicalAdenocarcinoma	
+MONDO:0002974	cervical cancer	CervicalCancer	
+EFO:1000172	cervical squamous cell carcinoma	CervicalSquamousCellCarcinoma	
+EFO:0005221	cholangiocarcinoma	Cholangiocarcinoma	
+MONDO:0016717	choroid plexus neoplasm	ChoroidPlexusTumor	
+EFO:0000326	central nervous system cancer	CNSCancer	
+EFO:0000326	central nervous system cancer	CNS	
 EFO:0000365	colorectal adenocarcinoma	ColonAdenocarcinoma	
-		Colon	
+EFO:0000365	colorectal adenocarcinoma	Colon	
 EFO:0000365	colorectal adenocarcinoma	ColorectalAdenocarcinoma	
 EFO:0000365	colorectal adenocarcinoma	ColorectalCancer	
 		Cutaneousmalignancyofhairmatrixcells	
-		DiffuseGlioma	
-		EmbryonalTumor	
+EFO:1000026	diffuse intrinsic pontine glioma	DiffuseGlioma	
+EFO:0005784	embryonal neoplasm	EmbryonalTumor	
 		Embryonaltumorwithmultilayeredrosettes	
-		EncapsulatedGlioma	
-		EndometrialCancer	
-		EndometrialCarcinoma	
+EFO:0005543	glioma	EncapsulatedGlioma	
+EFO:1001512	endometrial carcinoma 	EndometrialCancer	
+EFO:1001512	endometrial carcinoma 	EndometrialCarcinoma	
 		Ependymomainfratentorial	
 		EpendymomalTumor	
 		Ependymomasupratentorial	
-		EsophagealSquamousCellCarcinoma	
+EFO:0005922	esophageal squamous cell carcinoma	EsophagealSquamousCellCarcinoma	
 		EsophagogastricAdenocarcinoma	
 		EsophagogastricCancer	
 		EsophagogastricCarcinoma	
-		Ewingssarcoma	
-		Exposed	
-		cbioPortal_proteinDB	
-		FibrolamellarCarcinoma	
+EFO:0000174 	ewing sarcoma	Ewingssarcoma	
+EFO:1000256Ê	Fibrolamellar Carcinoma	FibrolamellarCarcinoma	
 		GastrointestinalNeuroendocrineTumor	
 		GastrointestinalStromalTumor	
-		GermCellTumor	
+EFO:0000514	germ cell tumor	GermCellTumor	
 		GestationalTrophoblasticDisease	
-		Glioblastoma	
-		GlioblastomaMultiforme	
+EFO:0000519	glioblastoma multiforme	Glioblastoma	
+EFO:0000519	glioblastoma multiforme	GlioblastomaMultiforme	
 		Glioma	
 		HeadandNeckCancer	
 		HeadandNeckSquamousCellCarcinoma	
@@ -70,10 +68,10 @@ EFO:0000365	colorectal adenocarcinoma	ColorectalCancer
 		HodgkinLymphoma	
 		HodgkinLymphomalikePTLD	
 		InvasiveBreastCarcinoma	
-		Leukemia	
-		LiverTumor	
-		Lungcancer	
-		LungCancer	
+EFO:0000565	leukemia	Leukemia	
+EFO:1001513	liver neoplasm	LiverTumor	
+MONDO:0008903	lung cancer	Lungcancer	
+MONDO:0008903	lung cancer	LungCancer	
 		LymphoidNeoplasm	
 		Mastocytosis	
 		MatureBCellNeoplasms	
@@ -89,7 +87,6 @@ EFO:0000365	colorectal adenocarcinoma	ColorectalCancer
 		MyelodysplasticSyndromes	
 		MyeloidNeoplasm	
 		MyeloproliferativeNeoplasms	
-		NA	
 		Naive	
 		NerveSheathTumor	
 		Nestedstromalepithelialtumoroftheliver	
@@ -102,9 +99,9 @@ EFO:0000365	colorectal adenocarcinoma	ColorectalCancer
 		OcularMelanoma	
 		Ontreatment	
 		Osteosarcoma	
-		OvarianCancer	
+MONDO:0008170	ovarian cancer	OvarianCancer	
 		OvarianEpithelialTumor	
-		Ovarian	
+MONDO:0008170	ovarian cancer	Ovarian	
 		OvarianGermCellTumor	
 		PancreaticAdenocarcinoma	
 		PancreaticCancer	
@@ -115,13 +112,13 @@ EFO:0000365	colorectal adenocarcinoma	ColorectalCancer
 		PinealTumor	
 		PleuralMesothelioma	
 		ProstateAdenocarcinoma	
-		ProstateCancer	
+MONDO:0008315	prostate cancer	ProstateCancer	
 		ProstateCancerNOS	
 		Prostate	
-		Renalcancer	
+EFO:0002890	renal carcinoma	Renalcancer	
 		RenalCellCarcinoma	
 		RenalClearCellCarcinoma	
-		Renal	
+EFO:0002890	renal carcinoma	Renal	
 		RenalNonClearCellCarcinoma	
 		Retinoblastoma	
 		RhabdoidCancer	
@@ -129,7 +126,7 @@ EFO:0000365	colorectal adenocarcinoma	ColorectalCancer
 		SalivaryCancer	
 		SalivaryGlandCancer	
 		SalivaryGlandTypeTumoroftheLung	
-		Sarcoma	
+EFO:0000691	sarcoma	Sarcoma	
 		SellarTumor	
 		Seminoma	
 		SexCordStromalTumor	
@@ -147,7 +144,7 @@ EFO:0000365	colorectal adenocarcinoma	ColorectalCancer
 		Tumor	
 		UndifferentiatedStomachAdenocarcinoma	
 		UterineSarcoma	
-		VaginalCancer	
+MONDO:0001402	vaginal cancer	VaginalCancer	
 		WellDifferentiatedThyroidCancer	
 		WilmsTumor	
 		Wilmstumors	
