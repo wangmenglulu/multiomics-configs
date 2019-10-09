@@ -56,23 +56,23 @@ EFO:0000514	germ cell tumor	GermCellTumor
 		GestationalTrophoblasticDisease	
 EFO:0000519	glioblastoma multiforme	Glioblastoma	
 EFO:0000519	glioblastoma multiforme	GlioblastomaMultiforme	
-		Glioma	
-		HeadandNeckCancer	
+EFO:0005543	glioma	Glioma	
+EFO:0006859	head and neck malignant neoplasia	HeadandNeckCancer	
 		HeadandNeckSquamousCellCarcinoma	
-		HepatobiliaryCancer	
-		Hepatoblastoma	
-		HepatocellularCarcinoma	
+MONDO:0018531	carcinoma of liver and intrahepatic biliary tract	HepatobiliaryCancer	
+EFO:1000292	Hepatoblastoma	Hepatoblastoma	
+EFO:0000182	hepatocellular carcinoma	HepatocellularCarcinoma	
 		HighgradegliomaKMmut	
 		HighgradegliomaKMwt	
-		Histiocytosis	
-		HodgkinLymphoma	
+HP:0100727	histiocytosis	Histiocytosis	
+EFO:0000183	hodgkins lymphoma	HodgkinLymphoma	
 		HodgkinLymphomalikePTLD	
 		InvasiveBreastCarcinoma	
 EFO:0000565	leukemia	Leukemia	
 EFO:1001513	liver neoplasm	LiverTumor	
 MONDO:0008903	lung cancer	Lungcancer	
 MONDO:0008903	lung cancer	LungCancer	
-		LymphoidNeoplasm	
+EFO:0001642	lymphoid neoplasm	LymphoidNeoplasm	
 EFO:0009001	mastocytosis	Mastocytosis	
 		MatureBCellNeoplasms	
 		MatureTandNKNeoplasms	
@@ -80,21 +80,21 @@ EFO:0009001	mastocytosis	Mastocytosis
 		MedulloblastomaSHH	
 		MedulloblastomaWNT	
 EFO:0000756	melanoma	Melanoma	
-		Mesothelioma	
+EFO:0000588	mesothelioma	Mesothelioma	
 		MiscellaneousBrainTumor	
 		MiscellaneousNeuroepithelialTumor	
 		MyelodysplasticMyeloproliferativeNeoplasms	
-		MyelodysplasticSyndromes	
-		MyeloidNeoplasm	
+EFO:0000198	myelodysplastic syndrome	MyelodysplasticSyndromes	
+EFO:0002427	myeloid neoplasm	MyeloidNeoplasm	
 		MyeloproliferativeNeoplasms	
 		Naive	
-		NerveSheathTumor	
+MONDO:0002547	nerve sheath neoplasm	NerveSheathTumor	
 		Nestedstromalepithelialtumoroftheliver	
 EFO:0000621	neuroblastoma	Neuroblastoma	
 		NonGerminomatousGermCellTumor	
-		NonHodgkinLymphoma	
+EFO:0005952	non-Hodgkins lymphoma	NonHodgkinLymphoma	
 		NonSeminomatousGermCellTumor	
-		NonSmallCellLungCancer	
+EFO:0003060	non-small cell lung carcinoma	NonSmallCellLungCancer	
 		NonSmallCellLung	
 EFO:1000403	ocular melanoma	OcularMelanoma	
 		Ontreatment	
