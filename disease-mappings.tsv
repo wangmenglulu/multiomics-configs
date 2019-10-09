@@ -86,7 +86,7 @@ EFO:0000588	mesothelioma	Mesothelioma
 		MyelodysplasticMyeloproliferativeNeoplasms	
 EFO:0000198	myelodysplastic syndrome	MyelodysplasticSyndromes	
 EFO:0002427	myeloid neoplasm	MyeloidNeoplasm	
-		MyeloproliferativeNeoplasms	
+EFO:1000388	Myelodysplastic/Myeloproliferative Neoplasm	MyeloproliferativeNeoplasms	
 		Naive	
 MONDO:0002547	nerve sheath neoplasm	NerveSheathTumor	
 		Nestedstromalepithelialtumoroftheliver	
@@ -98,9 +98,9 @@ EFO:0003060	non-small cell lung carcinoma	NonSmallCellLungCancer
 		NonSmallCellLung	
 EFO:1000403	ocular melanoma	OcularMelanoma	
 		Ontreatment	
-		Osteosarcoma	
+EFO:0000637	osteosarcoma	Osteosarcoma	
 MONDO:0008170	ovarian cancer	OvarianCancer	
-		OvarianEpithelialTumor	
+MONDO:0002229	ovarian epithelial tumor	OvarianEpithelialTumor	
 MONDO:0008170	ovarian cancer	Ovarian	
 EFO:1000419	ovarian germ cell tumor	OvarianGermCellTumor	
 EFO:1000044	pancreatic adenocarcinoma	PancreaticAdenocarcinoma	
@@ -120,11 +120,11 @@ EFO:0002890	renal carcinoma	Renalcancer
 		RenalClearCellCarcinoma	
 EFO:0002890	renal carcinoma	Renal	
 		RenalNonClearCellCarcinoma	
-		Retinoblastoma	
-		RhabdoidCancer	
+Orphanet:790	retinoblastoma	Retinoblastoma	
+EFO:0005701	malignant rhabdoid tumour	RhabdoidCancer	
 		Rhabdomyosarcoma	
-		SalivaryCancer	
-		SalivaryGlandCancer	
+MONDO:0004669	salivary gland cancer	SalivaryCancer	
+MONDO:0004669	salivary gland cancer	SalivaryGlandCancer	
 		SalivaryGlandTypeTumoroftheLung	
 EFO:0000691	sarcoma	Sarcoma	
 MONDO:0002720	sella turcica neoplasm	SellarTumor	
