@@ -67,7 +67,7 @@ EFO:0000182	hepatocellular carcinoma	HepatocellularCarcinoma
 HP:0100727	histiocytosis	Histiocytosis	
 EFO:0000183	hodgkins lymphoma	HodgkinLymphoma	
 		HodgkinLymphomalikePTLD	
-		InvasiveBreastCarcinoma	
+EFO:1000307	invasive breast carcinoma	InvasiveBreastCarcinoma	
 EFO:0000565	leukemia	Leukemia	
 EFO:1001513	liver neoplasm	LiverTumor	
 MONDO:0008903	lung cancer	Lungcancer	
@@ -81,7 +81,7 @@ EFO:0009001	mastocytosis	Mastocytosis
 		MedulloblastomaWNT	
 EFO:0000756	melanoma	Melanoma	
 EFO:0000588	mesothelioma	Mesothelioma	
-		MiscellaneousBrainTumor	
+EFO:0003833	brain neoplasm	MiscellaneousBrainTumor	
 		MiscellaneousNeuroepithelialTumor	
 		MyelodysplasticMyeloproliferativeNeoplasms	
 EFO:0000198	myelodysplastic syndrome	MyelodysplasticSyndromes	
@@ -91,7 +91,7 @@ EFO:1000388	Myelodysplastic/Myeloproliferative Neoplasm	MyeloproliferativeNeopla
 MONDO:0002547	nerve sheath neoplasm	NerveSheathTumor	
 		Nestedstromalepithelialtumoroftheliver	
 EFO:0000621	neuroblastoma	Neuroblastoma	
-		NonGerminomatousGermCellTumor	
+MONDO:0021656	nongerminomatous germ cell tumor	NonGerminomatousGermCellTumor	
 EFO:0005952	non-Hodgkins lymphoma	NonHodgkinLymphoma	
 		NonSeminomatousGermCellTumor	
 EFO:0003060	non-small cell lung carcinoma	NonSmallCellLungCancer	
@@ -107,14 +107,14 @@ EFO:1000044	pancreatic adenocarcinoma	PancreaticAdenocarcinoma
 EFO:0002618	pancreatic carcinoma	PancreaticCancer	
 		PenileCancer	
 		PeripheralNervousSystem	
-		Pheochromocytoma	
-		Pilocyticastrocytoma	
+EFO:0000239	adrenal gland pheochromocytoma	Pheochromocytoma	
+EFO:0000272	astrocytoma	Pilocyticastrocytoma	
 MONDO:0021232	pineal body neoplasm	PinealTumor	
-		PleuralMesothelioma	
+EFO:1000485	pleural mesothelioma	PleuralMesothelioma	
 		ProstateAdenocarcinoma	
 MONDO:0008315	prostate cancer	ProstateCancer	
 		ProstateCancerNOS	
-		Prostate	
+MONDO:0008315	prostate cancer	Prostate	
 EFO:0002890	renal carcinoma	Renalcancer	
 		RenalCellCarcinoma	
 		RenalClearCellCarcinoma	
