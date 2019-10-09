@@ -1,0 +1,153 @@
+EFO accession	EFO name	cbioPortal	Cosmic
+EFO:0000222	acute myeloid leukemia	Acutemyeloidleukemias	
+EFO:0003850	adrenal gland neoplasm	AdrenalTumor	
+EFO:0003104	adrenocortical adenoma	AdrenocorticalAdenoma	
+EFO:1000796	adrenal cortex carcinoma	Adrenocorticalcarcinoma	
+EFO:1000796	adrenal cortex carcinoma	AdrenocorticalCarcinoma	
+EFO:1000079	ampulla of vater carcinoma	AmpullaryCancer	
+EFO:1000079	ampulla of vater carcinoma	AmpullaryCarcinoma	
+MONDO:0003199	anal carcinoma	AnalCancer	
+EFO:0003880	appendiceal neoplasm	AppendicealCancer	
+EFO:1002008	atypical teratoid rhabdoid tumor	Atypialteratoidrhabdoidtumor	
+EFO:0000094	b-cell acute lymphoblastic leukemia	Bcellacutelymphoblasticleukemiahypodiploid	
+EFO:0000094	b-cell acute lymphoblastic leukemia	Bcellacutelymphoblasticleukemianonhypodiploid	
+EFO:0000292	bladder carcinoma	BladderCancer	
+MONDO:0001187	urinary bladder cancer	BladderUrinaryTractCancerNOS	
+		BlasticPlasmacytoidDendriticCellNeoplasm	
+		BLymphoblasticLeukemiaLymphoma	
+MONDO:0002129	bone cancer	BoneCancer	
+MONDO:0001657	brain cancer	BrainCancer	
+MONDO:0007254Ê	breast cancer	BreastCancer	
+EFO:0000186	invasive breast ductal carcinoma	BreastCancerNOS	
+MONDO:0007254Ê	breast cancer	Breast	
+MONDO:0002490	breast sarcoma	BreastSarcoma	
+		Burkittslymphoma	
+		CancerofUnknownPrimary	
+		CervicalAdenocarcinoma	
+		CervicalCancer	
+		CervicalSquamousCellCarcinoma	
+		Cholangiocarcinoma	
+		ChoroidPlexusTumor	
+		CNSCancer	
+		CNS	
+EFO:0000365	colorectal adenocarcinoma	ColonAdenocarcinoma	
+		Colon	
+EFO:0000365	colorectal adenocarcinoma	ColorectalAdenocarcinoma	
+EFO:0000365	colorectal adenocarcinoma	ColorectalCancer	
+		Cutaneousmalignancyofhairmatrixcells	
+		DiffuseGlioma	
+		EmbryonalTumor	
+		Embryonaltumorwithmultilayeredrosettes	
+		EncapsulatedGlioma	
+		EndometrialCancer	
+		EndometrialCarcinoma	
+		Ependymomainfratentorial	
+		EpendymomalTumor	
+		Ependymomasupratentorial	
+		EsophagealSquamousCellCarcinoma	
+		EsophagogastricAdenocarcinoma	
+		EsophagogastricCancer	
+		EsophagogastricCarcinoma	
+		Ewingssarcoma	
+		Exposed	
+		cbioPortal_proteinDB	
+		FibrolamellarCarcinoma	
+		GastrointestinalNeuroendocrineTumor	
+		GastrointestinalStromalTumor	
+		GermCellTumor	
+		GestationalTrophoblasticDisease	
+		Glioblastoma	
+		GlioblastomaMultiforme	
+		Glioma	
+		HeadandNeckCancer	
+		HeadandNeckSquamousCellCarcinoma	
+		HepatobiliaryCancer	
+		Hepatoblastoma	
+		HepatocellularCarcinoma	
+		HighgradegliomaKMmut	
+		HighgradegliomaKMwt	
+		Histiocytosis	
+		HodgkinLymphoma	
+		HodgkinLymphomalikePTLD	
+		InvasiveBreastCarcinoma	
+		Leukemia	
+		LiverTumor	
+		Lungcancer	
+		LungCancer	
+		LymphoidNeoplasm	
+		Mastocytosis	
+		MatureBCellNeoplasms	
+		MatureTandNKNeoplasms	
+		MedulloblastomaGroup	
+		MedulloblastomaSHH	
+		MedulloblastomaWNT	
+		Melanoma	
+		Mesothelioma	
+		MiscellaneousBrainTumor	
+		MiscellaneousNeuroepithelialTumor	
+		MyelodysplasticMyeloproliferativeNeoplasms	
+		MyelodysplasticSyndromes	
+		MyeloidNeoplasm	
+		MyeloproliferativeNeoplasms	
+		NA	
+		Naive	
+		NerveSheathTumor	
+		Nestedstromalepithelialtumoroftheliver	
+		Neuroblastoma	
+		NonGerminomatousGermCellTumor	
+		NonHodgkinLymphoma	
+		NonSeminomatousGermCellTumor	
+		NonSmallCellLungCancer	
+		NonSmallCellLung	
+		OcularMelanoma	
+		Ontreatment	
+		Osteosarcoma	
+		OvarianCancer	
+		OvarianEpithelialTumor	
+		Ovarian	
+		OvarianGermCellTumor	
+		PancreaticAdenocarcinoma	
+		PancreaticCancer	
+		PenileCancer	
+		PeripheralNervousSystem	
+		Pheochromocytoma	
+		Pilocyticastrocytoma	
+		PinealTumor	
+		PleuralMesothelioma	
+		ProstateAdenocarcinoma	
+		ProstateCancer	
+		ProstateCancerNOS	
+		Prostate	
+		Renalcancer	
+		RenalCellCarcinoma	
+		RenalClearCellCarcinoma	
+		Renal	
+		RenalNonClearCellCarcinoma	
+		Retinoblastoma	
+		RhabdoidCancer	
+		Rhabdomyosarcoma	
+		SalivaryCancer	
+		SalivaryGlandCancer	
+		SalivaryGlandTypeTumoroftheLung	
+		Sarcoma	
+		SellarTumor	
+		Seminoma	
+		SexCordStromalTumor	
+		SkinCancerNonMelanoma	
+		SmallBowelCancer	
+		SmallCellLungCancer	
+		SoftTissueSarcoma	
+		SoftTissueTumor	
+		StomachAdenocarcinoma	
+		Tcellacutelymphoblasticleukemia	
+		ThymicEpithelialTumor	
+		ThymicTumor	
+		ThyroidCancer	
+		TLymphoblasticLeukemiaLymphoma	
+		Tumor	
+		UndifferentiatedStomachAdenocarcinoma	
+		UterineSarcoma	
+		VaginalCancer	
+		WellDifferentiatedThyroidCancer	
+		WilmsTumor	
+		Wilmstumors	
