@@ -73,13 +73,13 @@ EFO:1001513	liver neoplasm	LiverTumor
 MONDO:0008903	lung cancer	Lungcancer	
 MONDO:0008903	lung cancer	LungCancer	
 		LymphoidNeoplasm	
-		Mastocytosis	
+EFO:0009001	mastocytosis	Mastocytosis	
 		MatureBCellNeoplasms	
 		MatureTandNKNeoplasms	
 		MedulloblastomaGroup	
 		MedulloblastomaSHH	
 		MedulloblastomaWNT	
-		Melanoma	
+EFO:0000756	melanoma	Melanoma	
 		Mesothelioma	
 		MiscellaneousBrainTumor	
 		MiscellaneousNeuroepithelialTumor	
@@ -90,26 +90,26 @@ MONDO:0008903	lung cancer	LungCancer
 		Naive	
 		NerveSheathTumor	
 		Nestedstromalepithelialtumoroftheliver	
-		Neuroblastoma	
+EFO:0000621	neuroblastoma	Neuroblastoma	
 		NonGerminomatousGermCellTumor	
 		NonHodgkinLymphoma	
 		NonSeminomatousGermCellTumor	
 		NonSmallCellLungCancer	
 		NonSmallCellLung	
-		OcularMelanoma	
+EFO:1000403	ocular melanoma	OcularMelanoma	
 		Ontreatment	
 		Osteosarcoma	
 MONDO:0008170	ovarian cancer	OvarianCancer	
 		OvarianEpithelialTumor	
 MONDO:0008170	ovarian cancer	Ovarian	
-		OvarianGermCellTumor	
-		PancreaticAdenocarcinoma	
-		PancreaticCancer	
+EFO:1000419	ovarian germ cell tumor	OvarianGermCellTumor	
+EFO:1000044	pancreatic adenocarcinoma	PancreaticAdenocarcinoma	
+EFO:0002618	pancreatic carcinoma	PancreaticCancer	
 		PenileCancer	
 		PeripheralNervousSystem	
 		Pheochromocytoma	
 		Pilocyticastrocytoma	
-		PinealTumor	
+MONDO:0021232	pineal body neoplasm	PinealTumor	
 		PleuralMesothelioma	
 		ProstateAdenocarcinoma	
 MONDO:0008315	prostate cancer	ProstateCancer	
@@ -127,23 +127,23 @@ EFO:0002890	renal carcinoma	Renal
 		SalivaryGlandCancer	
 		SalivaryGlandTypeTumoroftheLung	
 EFO:0000691	sarcoma	Sarcoma	
-		SellarTumor	
-		Seminoma	
-		SexCordStromalTumor	
-		SkinCancerNonMelanoma	
-		SmallBowelCancer	
-		SmallCellLungCancer	
-		SoftTissueSarcoma	
-		SoftTissueTumor	
+MONDO:0002720	sella turcica neoplasm	SellarTumor	
+MONDO:0003001	seminoma	Seminoma	
+EFO:1000052	sex cord-stromal tumor	SexCordStromalTumor	
+EFO:0009260	non-melanoma skin carcinoma	SkinCancerNonMelanoma	
+MONDO:0000956	small intestine cancer	SmallBowelCancer	
+EFO:0000702	small cell lung carcinoma	SmallCellLungCancer	
+EFO:1001968	soft tissue sarcoma	SoftTissueSarcoma	
+EFO:1000541	soft tissue neoplasm	SoftTissueTumor	
 		StomachAdenocarcinoma	
 		Tcellacutelymphoblasticleukemia	
-		ThymicEpithelialTumor	
-		ThymicTumor	
-		ThyroidCancer	
+MONDO:0018079	thymic epithelial neoplasm	ThymicEpithelialTumor	
+EFO:0002626	thymus neoplasm	ThymicTumor	
+MONDO:0002108	thyroid cancer	ThyroidCancer	
 		TLymphoblasticLeukemiaLymphoma	
 		Tumor	
 		UndifferentiatedStomachAdenocarcinoma	
-		UterineSarcoma	
+EFO:0002914	uterine sarcoma	UterineSarcoma	
 MONDO:0001402	vaginal cancer	VaginalCancer	
 		WellDifferentiatedThyroidCancer	
 		WilmsTumor	
