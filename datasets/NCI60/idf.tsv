@@ -3,15 +3,15 @@ Investigation Title	NCI60 cancer cell lines reanalysis.
 Experiment Description	NCI60 cancer cell lines reanalysis.
 Person Last Name	Perez-Riverol
 Person First Name	Yasset
-Person Mid Initials	
+Person Mid Initials	PR
 Person Email	yperez@ebi.ac.uk
 Person Phone	
 Person Fax	
 Person Address	
 Person Affiliation	
 Person Roles	submitter
-Date of Experiment	2019-10-14
-Public Release Date	2019-10-22
+Date of Experiment	14/10/2019
+Public Release Date	22/10/2019
 PubMed ID	
 Publication DOI	
 Publication Author List	
@@ -21,4 +21,4 @@ Publication Status Term Source REF
 Publication Status Term Accession Number	
 SDRF File	sdrf.tsv
 Comment[TemplateType]	Cell line - High-throughput sequencing
-Comment[AEExperimentType]	proteomic profiling by array
+Comment[AEExperimentType]	mass spectrometry 
