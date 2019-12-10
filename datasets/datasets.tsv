@@ -1,1 +1,18 @@
-Title Proteomics Accession  Transcriptomics Accession Metabolomics Accession  Genomics Accession Epigenomics Accession
+Title	Clinical Data	Copy Number (Genomics Accession)	miRNA (Transcriptomics Accession)	Mutation (Genomics Accession)	Methylation (Epigenomics Accession)	RNASeq (Transcriptomics Accession)	Protein Expression (Proteomics Accession)	Phospho-Sites (Proteomics Accession)	Glyco-Sites (Glycoproteomics Accession)
+									
+									
+									
+									
+									
+									
+									
+"Clinical Data :ÊIt inculdes attributes like age, overall survival, phological stage (I, II, III, IV), TNM staging, Clinical subtype, Molecular Subtype, number of lymph nodes, radiation therapy."									
+"Copy Number (Level: Focal, Gene) :ÊNormalized copy number (SNPs) ans Copy number alterations for aggregated/segmented regions, per sample"									
+"miRNA (Leve: Gene, Isoform) :ÊNormalized signals per probe or probe set for each participant's tumor sample"									
+"Mutation (Level: Site, Gene) :ÊMutation calls for each participant"									
+"Methylation (Level: Gene) :ÊCalculated beta values mapped to genome, per sample"									
+"RNAseq (Level: Gene) :ÊThe normalized expression signal of individual Gene (transcripts), per sample"									
+"RPPA (Level: Analyte, Gene) :ÊNormalized protein expression for each gene, per sample"									
+Proteomics (Level: Gene) :ÊAverage log-ratio of sample reporter-ion to common reference of peptide ions associated with the gene in acquisitions from a specific biological Sample (Unshared Log Ratio-Average log-ratio of sample reporter-ion to common reference of peptide ions of unshared peptides only associated with the gene in acquisitions from a specific biological sample).									
+Phospho-Proteomics (Level: Site) :ÊAverage log-ratio of sample reporter-ion to common reference of peptide ions associated with phosphorylated site combinations in acquisitions from a specific biological sample (CDAP Protein Report).									
+Glyco-Proteomics (Level: Site) :ÊAverage log-ratio of sample reporter-ion to common reference of peptide ions associated with deglycosylated N-glycosylation site combinations in acquisitions from a specific biological sample (CDAP Protein Report).									
