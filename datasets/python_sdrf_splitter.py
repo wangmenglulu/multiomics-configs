@@ -6,13 +6,21 @@ import click
 @click.command()
 @click.option('--input', help='sdrf')
 @click.option('--property', help='property to split')
-def main(input, property):
+@click.option('--subproperty', help='Use a subproperty for spliting')
+@click.option('--project', help= 'project accession to be added to the sdrf file name')
+def main(input, property, subproperty, project):
     """Simple program that greets NAME for a total of COUNT times."""
     df = pd.read_csv(input, sep='\t', skip_blank_lines=False)
-    d = dict(tuple(df.groupby(property)))
+    if(subproperty is None):
+      d = dict(tuple(df.groupby(property)))
+    else:
+      d = dict(tuple(df.groupby([property, subproperty])))
     for key in d:
       dataframe = d[key]
-      name_file = 'sdrf-' + key.replace(" ", "-")+ '.tsv'
+      if(subproperty is None):
+        name_file = 'sdrf-' + project + "-" + key.replace(" ", "-") + '.tsv'
+      else:
+        name_file = 'sdrf-' + project + "-" + key[0].replace(" ", "-") + "-" + key[1].replace(" ", "-") + '.tsv'
       dataframe.to_csv(name_file ,sep='\t', quoting=csv.QUOTE_NONE, index=False)
     print(d)
 
