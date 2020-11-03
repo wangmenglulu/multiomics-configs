@@ -14,11 +14,15 @@ Datasets under study:
     
  - Tissue Proteome Project: 
  
-    - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
+    
     - Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD020192)
     - Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD000561)
+    - Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD010154)
+    
+    - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
     - Hart Tissue proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD006675) 
     - Hart Tissue proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005736) 
     - Choroid tissue (https://www.ebi.ac.uk/pride/archive/projects/PXD002273)
     - Brain Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005445)
+    - Pancreas (https://www.iprox.org/page/project.html?id=IPX0001745000) (To be annotated)
    
