@@ -25,4 +25,6 @@ Datasets under study:
     - Choroid tissue (https://www.ebi.ac.uk/pride/archive/projects/PXD002273)
     - Brain Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005445)
     - Pancreas (https://www.iprox.org/page/project.html?id=IPX0001745000) (To be annotated)
+    - Eccrine sweat glands (https://www.ebi.ac.uk/pride/archive/projects/PXD010637)
+    
    
