@@ -12,7 +12,7 @@ Datasets under study:
     - Publication: http://europepmc.org/article/MED/31294064
     - biology: breast cancer, label-free
 
- - Tissue Proteome Project: 
+ - Tissue Proteome Project:
 
 
     - Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD020192)
