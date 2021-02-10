@@ -11,6 +11,9 @@ import click
 def main(input, property, subproperty, project):
     """Simple program that greets NAME for a total of COUNT times."""
     df = pd.read_csv(input, sep='\t', skip_blank_lines=False)
+    name_project = ""
+    if(project is not None):
+      name_project = 'sdrf-' + project + "-"
     if(subproperty is None):
       d = dict(tuple(df.groupby(property)))
     else:
@@ -18,9 +21,9 @@ def main(input, property, subproperty, project):
     for key in d:
       dataframe = d[key]
       if(subproperty is None):
-        name_file = 'sdrf-' + project + "-" + key.replace(" ", "-") + '.tsv'
+        name_file = name_project + key.replace(" ", "-") + '.tsv'
       else:
-        name_file = 'sdrf-' + project + "-" + key[0].replace(" ", "-") + "-" + key[1].replace(" ", "-") + '.tsv'
+        name_file = name_project + key[0].replace(" ", "-") + "-" + key[1].replace(" ", "-") + '.tsv'
       dataframe.to_csv(name_file ,sep='\t', quoting=csv.QUOTE_NONE, index=False)
     print(d)
 
