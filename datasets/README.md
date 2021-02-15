@@ -11,9 +11,9 @@ Datasets under study:
 
 ### Tissues Proteomes
 
-- Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD020192)
-- Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD000561)
-- Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD010154)
+- PXD020192: Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD020192)
+- PXD000561: Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD000561)
+- PXD010154: Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD010154)
 
 - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
 - Hart Tissue proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD006675)
