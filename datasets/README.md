@@ -14,6 +14,9 @@ Datasets under study:
 - PXD012255
 - PXD015270
 
+Number of Samples: 246
+Number of Raw Files: 2360
+
 ### Tissues Proteomes
 
 - PXD020192: Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD020192)
