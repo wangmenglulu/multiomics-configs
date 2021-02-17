@@ -17,10 +17,9 @@ Datasets under study:
 Number of Samples: 246
 Number of Raw Files: 2360
 
-Cancer Tissue Proteomes:
+Comments: 
 
-- PMID25043054: Proteogenomic characterization of human colon and rectal cancer (PXD002081,PXD002082,PXD002083,PXD002084,PXD002085,PXD002086,PXD002087,PXD002088,PXD002089)
-
+The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD002395-Sample-2, PXD002395-Sample-32, PXD004452-Sample-15, PXD004452-Sample-18, PXD005946-Sample-11)
 
 ### Tissues Proteomes
 
