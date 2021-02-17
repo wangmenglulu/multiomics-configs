@@ -17,6 +17,10 @@ Datasets under study:
 Number of Samples: 246
 Number of Raw Files: 2360
 
+Comments: 
+
+The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD002395-Sample-2, PXD002395-Sample-32, PXD004452-Sample-15, PXD004452-Sample-18, PXD005946-Sample-11)
+
 ### Tissues Proteomes
 
 - PXD020192: Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD020192)
