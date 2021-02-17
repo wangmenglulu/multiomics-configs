@@ -17,6 +17,11 @@ Datasets under study:
 Number of Samples: 246
 Number of Raw Files: 2360
 
+Cancer Tissue Proteomes:
+
+- PMID25043054: Proteogenomic characterization of human colon and rectal cancer (PXD002081,PXD002082,PXD002083,PXD002084,PXD002085,PXD002086,PXD002087,PXD002088,PXD002089)
+
+
 ### Tissues Proteomes
 
 - PXD020192: Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD020192)
