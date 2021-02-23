@@ -2,17 +2,17 @@ Datasets under study:
 
 ### Cancer Cell-lines datasets
 
-- PXD000396
-- PXD002395
-- PXD003209
-- PXD004452
-- PXD005366
-- PXD005698
-- PXD005940
-- PXD005942
-- PXD005946
-- PXD012255
-- PXD015270
+- [ ] PXD000396
+- [ ] PXD002395
+- [ ] PXD003209
+- [ ] PXD004452
+- [ ] PXD005366
+- [ ] PXD005698
+- [ ] PXD005940
+- [ ] PXD005942
+- [ ] PXD005946
+- [ ] PXD012255
+- [x] PXD015270
 
 Number of Samples: 246
 Number of Raw Files: 2360
