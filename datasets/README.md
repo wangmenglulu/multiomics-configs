@@ -8,7 +8,7 @@ Datasets under study:
 - [ ] PXD004452
 - [ ] PXD005366
 - [ ] PXD005698
-- [ ] PXD005940
+- [x] PXD005940
 - [ ] PXD005942
 - [ ] PXD005946
 - [ ] PXD012255
