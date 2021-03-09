@@ -6,7 +6,7 @@ Datasets under study:
 - [ ] PXD000396
 - [ ] PXD002395
 - [ ] PXD003209
-- [ ] PXD004452 (Running)
+- [ ] PXD004452 (Running - DecoyPyrat)
 - [ ] PXD005366
 - [ ] PXD005698
 - [x] PXD005940
@@ -14,10 +14,10 @@ Datasets under study:
 - [ ] PXD005946
 - [x] PXD012255
 - [x] PXD015270
-- [x] PXD019263
+- [x] PXD019263 (Running - DecoyPyrat)
 
 #### TMT experiments analyzed as Label-free 
-- [ ] PXD014145 (Error Raw conversion - https://github.com/compomics/ThermoRawFileParser/issues/108) 
+- [x] PXD014145 (Running DecoyRyrat) 
 
 
 Number of Samples: 246
@@ -29,9 +29,9 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 
 ### Tissues Proteomes
 
-- PXD020192: Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD020192)
-- PXD000561: Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD000561)
-- PXD010154: Multiple Tissues Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD010154)
+- [ ] PXD020192 (Running HX DecoyPyrat)
+- [ ] PXD000561: (Running in HH DecoyPyrat) 
+- [ ] PXD010154: (Running HH DecoyPyrat)
 
 - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
 - Hart Tissue proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD006675)
