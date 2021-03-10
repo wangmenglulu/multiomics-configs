@@ -2,7 +2,7 @@ Datasets under study:
 
 ### Cancer Cell-lines datasets
 
-#### Label-free experiments 
+#### Label-free experiments
 - [ ] PXD000396
 - [ ] PXD002395
 - [ ] PXD003209
@@ -16,8 +16,8 @@ Datasets under study:
 - [x] PXD015270
 - [x] PXD019263 (Running - DecoyPyrat)
 
-#### TMT experiments analyzed as Label-free 
-- [x] PXD014145 (Running DecoyRyrat) 
+#### TMT experiments analyzed as Label-free
+- [x] PXD014145 (Finish - http://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/pgdb-manuscript/PXD014145-Sample-1/)
 
 
 Number of Samples: 246
@@ -30,7 +30,7 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 ### Tissues Proteomes
 
 - [ ] PXD020192 (Running HX DecoyPyrat)
-- [ ] PXD000561: (Running in HH DecoyPyrat) 
+- [ ] **PXD000561**: (Error Quant proteomicsLFQ)
 - [ ] PXD010154: (Running HH DecoyPyrat)
 
 - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
