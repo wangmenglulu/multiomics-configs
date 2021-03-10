@@ -29,11 +29,12 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 
 ### Tissues Proteomes
 
-- [ ] PXD020192: (Running HX DecoyPyrat)
+- [ ] PXD020192: (Running HX)
 - [ ] **PXD000561**: (Error Quant proteomicsLFQ)
-- [ ] PXD010154: (Running HH DecoyPyrat)
+- [ ] PXD010154: (Running HH)
 - [ ] **PXD012755**: (Error Quant proteomicsLFQ)
-- [ ] PXD008934:
+- [ ] PXD008934: (Error Quant proteomicsLFQ)
+- [ ] PXD008722
 
 - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
 - Hart Tissue proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD006675)
@@ -42,7 +43,7 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 - Brain Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005445)
 - Pancreas (https://www.iprox.org/page/project.html?id=IPX0001745000) (To be annotated)
 - Eccrine sweat glands (https://www.ebi.ac.uk/pride/archive/projects/PXD010637)
-- PXD008722 (Quantitative proteomics of human heart samples collected in vivo reveal the remodeled protein landscape of dilated left atrium without atrial fibrillation):
+
 
 - PXD012431 (High-throughput mass spectrometry and bioinformatics analysis of breast cancer proteomic data):
     - SDRF: https://github.com/bigbio/proteomics-metadata-standard/blob/4905da47fbbbdd9879333b76687028e4b88f5459/annotated-projects/PXD012431/sdrf.tsv
