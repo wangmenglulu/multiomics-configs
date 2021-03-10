@@ -32,7 +32,8 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 - [ ] PXD020192: (Running HX DecoyPyrat)
 - [ ] **PXD000561**: (Error Quant proteomicsLFQ)
 - [ ] PXD010154: (Running HH DecoyPyrat)
-- [ ] PXD012755: (Running HH)
+- [ ] **PXD012755**: (Error Quant proteomicsLFQ)
+- [ ] PXD008934:
 
 - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
 - Hart Tissue proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD006675)
