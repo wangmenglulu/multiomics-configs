@@ -30,10 +30,10 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 ### Tissues Proteomes
 
 - [ ] PXD020192: (Running HX)
-- [ ] **PXD000561**: (Error Quant proteomicsLFQ)
+- [ ] **PXD000561**: (Running HH)
 - [ ] PXD010154: (Running HH)
-- [ ] **PXD012755**: (Error Quant proteomicsLFQ)
-- [ ] PXD008934: (Error Quant proteomicsLFQ)
+- [ ] **PXD012755**: (Running HH)
+- [ ] PXD008934: (Running HH)
 - [ ] PXD008722: (Running HH)
 
 - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
