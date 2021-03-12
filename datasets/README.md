@@ -44,6 +44,10 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 - Pancreas (https://www.iprox.org/page/project.html?id=IPX0001745000) (To be annotated)
 - Eccrine sweat glands (https://www.ebi.ac.uk/pride/archive/projects/PXD010637) (To be annotated)
 
+### Fluid Proteomes (Plasma, Urine)
+
+- [ ] PXD023650 (To be annotated)
+
 ### Tumor data
 
 - PXD012431 (High-throughput mass spectrometry and bioinformatics analysis of breast cancer proteomic data):
