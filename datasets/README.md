@@ -11,7 +11,7 @@ Datasets under study:
 - [ ] PXD005698
 - [ ] PXD005940
 - [ ] PXD005942
-- [ ] PXD005946
+- [x] PXD005946 (small errors in some Samples)
 - [x] PXD012255
 - [x] PXD015270
 - [x] PXD019263 (Running - DecoyPyrat)
