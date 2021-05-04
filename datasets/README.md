@@ -11,7 +11,7 @@ Datasets under study:
 - [ ] PXD005698
 - [ ] PXD005940
 - [ ] PXD005942
-- [ ] PXD005946
+- [x] PXD005946 (small errors in some Samples)
 - [x] PXD012255
 - [x] PXD015270
 - [x] PXD019263 (Running - DecoyPyrat)
@@ -32,9 +32,9 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 - [ ] PXD020192: (Running HX)
 - [ ] **PXD000561**: (Running HH)
 - [ ] PXD010154: (Running HH)
-- [ ] **PXD012755**: (Running HH)
+- [x] PXD012755: (Running HH)
 - [ ] PXD008934: (Running HH)
-- [ ] PXD008722: (Running HH)
+- [x] PXD008722: (Running HH)
 - [ ] PXD006675: (Running HH)
 
 - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
