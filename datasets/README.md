@@ -6,6 +6,7 @@ Datasets under study:
     - cell-lines (https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-cell-lines/)
     - organism-part (https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-organism-part/)
 - [ ] PXD004682: Running
+- [ ] PXD008722: Running
 
 ### Cancer Cell-lines datasets
 
