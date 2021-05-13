@@ -19,10 +19,11 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 The datasets are run using the pipeline proteomicsLFQ
 
 - [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
-    - cell-lines (https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-cell-lines/)
-    - organism-part (https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-organism-part/)
+    - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-cell-lines/)
+    - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-organism-part/)
 - [ ] PXD004682: Running
 - [ ] PXD008722: Running
+- [ ] PXD002137: To be annotated
 
 
 ## Cancer Cell-lines datasets
