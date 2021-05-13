@@ -1,14 +1,26 @@
 Datasets under study:
 
-### Differential expresses datasets
+## Differential Expression analysis:
 
+Differential expression datasets are Label-free or TMT datasets public in PRIDE. They can be run using multiple sdrf files depending on the variable under stdudy (factor value). The analyses are run against the Human Swiss-Prot including isoforms (Homo-sapiens-uniprot-reviewed-isoforms-contaminants-decoy-202105.fasta).
+
+The parameters used for proteomicsLFQ are:
+
+```bash
+nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/nextflow.config -profile conda,lsf --root_folder **RAW_FILES** --database Homo-sapiens-uniprot-reviewed-isoforms-contaminants-decoy-202105.fasta --input SDRF --search_engines comet,msgf --protein_level_fdr_cutoff 0.01 --psm_pep_fdr_cutoff 0.05 --targeted_only false --outdir SDRF_OUTPUT --protein_inference bayesian --protein_quant shared_peptides --add_triqler_output -resume
+```
+All the data is deposited in: https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/
+
+
+### Differential expresses datasets
 - [x] PXD015270:
     - cell-lines (https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-cell-lines/)
     - organism-part (https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-organism-part/)
 - [ ] PXD004682: Running
 - [ ] PXD008722: Running
 
-### Cancer Cell-lines datasets
+
+## Cancer Cell-lines datasets
 
 #### Label-free experiments
 - [ ] PXD000396
