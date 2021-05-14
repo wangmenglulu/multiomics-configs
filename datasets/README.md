@@ -24,6 +24,13 @@ The datasets are run using the pipeline proteomicsLFQ
 - [ ] PXD004682: Running
 - [ ] PXD008722: Running
 - [ ] PXD002137: To be annotated
+- [ ] PXD012998: To be annotated
+- [ ] PXD003351: To be annotated
+- [ ] PXD012923: To be annotated
+- [ ] PXD019123: To be annotated
+- [ ] PXD015744: To be annotated
+- [ ] PXD009630: To be annotated
+- [ ] PXD005571: To be annotated
 
 
 ## Cancer Cell-lines datasets
