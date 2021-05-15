@@ -21,8 +21,9 @@ The datasets are run using the pipeline proteomicsLFQ
 - [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-cell-lines/)
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-organism-part/)
-- [ ] PXD004682: Running
+- [ ] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD004682-organism-part/)
 - [ ] PXD008722: Running
+- [ ] PXD002395: To be Running
 - [ ] PXD002137: To be annotated
 - [ ] PXD012998: To be annotated
 - [ ] PXD003351: To be annotated
@@ -35,8 +36,10 @@ The datasets are run using the pipeline proteomicsLFQ
 
 ## Cancer Cell-lines datasets
 
+These datasets are use for IBAQ-based absolute quantification. Some of then can be also seen in the Differential expression section.
+
 #### Label-free experiments
-- [ ] PXD000396
+- [ ] PXD000396: (This dataset is analytical)
 - [ ] PXD002395
 - [ ] PXD003209
 - [ ] PXD004452 (Running - DecoyPyrat)
