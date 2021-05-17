@@ -27,9 +27,12 @@ The datasets are run using the pipeline proteomicsLFQ
 - [ ] PXD008934: To be Run
 - [ ] PXD009630: To be annotated
 - [ ] PXD012431: To be Run
-- [ ] PXD012755: To be Run 
+- [ ] PXD012755: To be Run
 - [ ] PXD012923: To be annotated
 - [ ] PXD012998: To be annotated
+- [ ] PXD014458: To be Run
+  - [cell-lines]
+  - [phenotype]
 - [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-cell-lines/)
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-organism-part/)
