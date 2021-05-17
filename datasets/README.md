@@ -23,7 +23,7 @@ The datasets are run using the pipeline proteomicsLFQ
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-organism-part/)
 - [ ] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD004682-organism-part/)
 - [ ] PXD008722: Running
-- [ ] PXD002395: To be Running
+- [ ] PXD002395: Running
 - [ ] PXD002137: To be annotated
 - [ ] PXD012998: To be annotated
 - [ ] PXD003351: To be annotated
