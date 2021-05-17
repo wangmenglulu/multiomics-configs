@@ -18,6 +18,14 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 
 The datasets are run using the pipeline proteomicsLFQ
 
+- [ ] PMID25238572 (To be annotated): This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript:
+   - PXD001311 (HMF untreated)
+   - PXD001323 (HMF + TGFβ)
+   - PXD001324 (Tumor-near tissue)
+   - PXD001325 (Tumor-far/distant tissue)
+   - PXD001326 (Tumor-central tissue)
+   - PXD001327 (ZR-75-1)
+   - PXD001328 (HMF + IL-1β)
 - [ ] PXD002137: To be annotated
 - [ ] PXD002395: Running
 - [ ] PXD003351: To be annotated
@@ -31,8 +39,8 @@ The datasets are run using the pipeline proteomicsLFQ
 - [ ] PXD012923: To be annotated
 - [ ] PXD012998: To be annotated
 - [ ] PXD014458: To be Run
-  - [cell-lines]
-  - [phenotype]
+    - [cell-lines]
+    - [phenotype]
 - [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-cell-lines/)
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-organism-part/)
