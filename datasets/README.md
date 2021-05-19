@@ -28,17 +28,15 @@ The datasets are run using the pipeline proteomicsLFQ
    - PXD001326 (Tumor-central tissue)
    - PXD001327 (ZR-75-1)
    - PXD001328 (HMF + IL-1β)
+- [ ] PXD002395: **Running**
 - [x] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
-- [ ] PXD008440
-- [ ] PXD004684: (One sample removed because error in RAW file)
+- [ ] PXD008440: To be annotated
 - [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.1-cell-lines/)
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
 - [ ] PXD012431: **Running**
-- [ ] PXD002395: **Running**
 - [ ] PXD014458: **Running**
 
-- [ ] PXD025864: To be annotated
 - [ ] PXD002137: To be annotated
 - [ ] PXD003351: To be annotated
 - [ ] PXD005571: To be annotated
@@ -49,6 +47,11 @@ The datasets are run using the pipeline proteomicsLFQ
     - [phenotype]
 - [ ] PXD015744: To be annotated
 - [ ] PXD019123: To be annotated
+- [ ] PXD025864: To be annotated
+- [ ] PXD023272
+- [ ] PXD022268
+- [ ] PXD020224
+- [ ] PXD021865
 
 #### Others
 
