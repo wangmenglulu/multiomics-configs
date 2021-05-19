@@ -29,28 +29,32 @@ The datasets are run using the pipeline proteomicsLFQ
    - PXD001327 (ZR-75-1)
    - PXD001328 (HMF + IL-1β)
 - [x] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
+- [ ] PXD008440
+- [ ] PXD004684: (One sample removed because error in RAW file)
 - [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.1-cell-lines/)
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
-- [ ] PXD012431: **Running***
+- [ ] PXD012431: **Running**
 - [ ] PXD002395: **Running**
+- [ ] PXD014458: **Running**
 
-#### Others
-
+- [ ] PXD025864: To be annotated
 - [ ] PXD002137: To be annotated
 - [ ] PXD003351: To be annotated
 - [ ] PXD005571: To be annotated
-- [ ] PXD008722: Running
-- [ ] PXD008934: To be Run
 - [ ] PXD009630: To be annotated
-- [ ] PXD012755: To be Run
 - [ ] PXD012923: To be annotated
 - [ ] PXD012998: To be annotated
-- [ ] PXD014458: To be Run
     - [cell-lines]
     - [phenotype]
 - [ ] PXD015744: To be annotated
 - [ ] PXD019123: To be annotated
+
+#### Others
+
+- [ ] PXD008722: Running
+- [ ] PXD008934: To be Run
+- [ ] PXD012755: To be Run
 
 
 ## Cancer Cell-lines datasets
