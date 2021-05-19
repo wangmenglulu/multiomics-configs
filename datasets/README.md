@@ -29,7 +29,7 @@ The datasets are run using the pipeline proteomicsLFQ
 - [ ] PXD002137: To be annotated
 - [ ] PXD002395: Running
 - [ ] PXD003351: To be annotated
-- [ ] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD004682-organism-part/)
+- [ ] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
 - [ ] PXD005571: To be annotated
 - [ ] PXD008722: Running
 - [ ] PXD008934: To be Run
@@ -42,8 +42,8 @@ The datasets are run using the pipeline proteomicsLFQ
     - [cell-lines]
     - [phenotype]
 - [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
-    - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-cell-lines/)
-    - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/PXD015270-organism-part/)
+    - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.1-cell-lines/)
+    - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
 - [ ] PXD015744: To be annotated
 - [ ] PXD019123: To be annotated
 
