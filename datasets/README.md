@@ -20,7 +20,7 @@ The datasets are run using the pipeline proteomicsLFQ
 
 #### Cancer datasets:
 
-- [ ] PMID25238572 (To be annotated): This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript:
+- [ ] PMID25238572 (To be annotated): This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Running**
    - cell-lines ()
    - tumor
    - total
