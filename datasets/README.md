@@ -21,13 +21,9 @@ The datasets are run using the pipeline proteomicsLFQ
 #### Cancer datasets:
 
 - [ ] PMID25238572 (To be annotated): This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript:
-   - PXD001311 (HMF untreated)
-   - PXD001323 (HMF + TGFβ)
-   - PXD001324 (Tumor-near tissue)
-   - PXD001325 (Tumor-far/distant tissue)
-   - PXD001326 (Tumor-central tissue)
-   - PXD001327 (ZR-75-1)
-   - PXD001328 (HMF + IL-1β)
+   - cell-lines ()
+   - tumor
+   - total
 - [ ] PXD001048
 - [ ] PXD002395: **Running**
 - [x] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
