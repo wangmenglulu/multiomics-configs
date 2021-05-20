@@ -25,6 +25,7 @@ The datasets are run using the pipeline proteomicsLFQ
    - tumor
    - total
 - [ ] PXD001048
+- [ ] PXD002137: To be annotated
 - [ ] PXD002395: **Running**
 - [x] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
 - [ ] PXD008440: To be annotated
@@ -33,11 +34,9 @@ The datasets are run using the pipeline proteomicsLFQ
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
 - [ ] PXD012431: **Running**
 - [ ] PXD014458: **Failing**
-
-- [ ] PXD002137: To be annotated
 - [ ] PXD003351: To be annotated
 - [ ] PXD005571: To be annotated
-- [ ] PXD009630: To be annotated
+- [ ] PXD009630: **Running**
 - [ ] PXD012923: To be annotated
 - [ ] PXD012998: To be annotated
     - [cell-lines]
