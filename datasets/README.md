@@ -5,29 +5,33 @@ Datasets under study are divided into two different categories:
 - differential-expression: label-free, or TMT. In differential expression datasets are analyzed completely.
 - absolute-expression: Absolute expression is divided into cell-lines dataets, tissues and datasets are analyzed by Sample.
 
+Some datasets are reuse between the two categories (differential-expression or absolute-expression) depending on the type of analysis performed.
+
 ## Differential Expression analysis:
 
 - Differential expression datasets are Label-free or TMT datasets public in PRIDE.
-- They can be run using multiple sdrf files depending on the variable under stdudy (factor value).
+- They can be run using multiple sdrf files depending on the variable under study (factor value).
 - The analyses are run against the Human Swiss-Prot including isoforms (Homo-sapiens-uniprot-reviewed-isoforms-contaminants-decoy-202105.fasta). This is important because in other projects like the proteogenomics, we run against a bigger databases including variants etc. Using UNIPROT/Isoforms we aim to identified and quantified only canonical reviewed proteins.
+
+- All the data is deposited in: https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/
+
+### Differential Expression Label-Free
+
+The datasets are run using the pipeline [proteomicsLFQ](https://github.com/nf-core/proteomicslfq).
+
 - The parameters used for proteomicsLFQ are:
 
 ```bash
 nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/nextflow.config -profile conda,lsf --root_folder **RAW_FILES** --database Homo-sapiens-uniprot-reviewed-isoforms-contaminants-decoy-202105.fasta --input SDRF --search_engines comet,msgf --protein_level_fdr_cutoff 0.01 --psm_pep_fdr_cutoff 0.05 --targeted_only false --outdir SDRF_OUTPUT --protein_inference bayesian --protein_quant shared_peptides --add_triqler_output -resume
 ```
 
-- All the data is deposited in: https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/
-
-### Differential Expression Label-Free
-
-The datasets are run using the pipeline proteomicsLFQ
 
 #### Cancer datasets:
 
-- [ ] PMID25238572 (To be annotated): This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Running**
-   - cell-lines ()
-   - tumor
-   - total
+- [ ] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Running**
+   - [cell-lines]
+   - [tumor]
+   - [total]
 - [ ] PXD001048
 - [ ] PXD002137: To be annotated
 - [ ] PXD002395: **Running**
