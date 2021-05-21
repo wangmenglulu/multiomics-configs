@@ -103,7 +103,8 @@ Absolute expression analysis is run using different datasets split by Sample acc
 
 - [ ] PXD000561: **Running**
 - [ ] PXD020192: **Running**
-- [ ] PXD010154: (Running HH)
+- [ ] PXD010154: **Running**
+- [ ] PXD006675: (Running HH)
 
 - Pending
 
