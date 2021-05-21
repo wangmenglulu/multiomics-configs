@@ -1,4 +1,9 @@
-Datasets under study:
+# Datasets under study:
+
+Datasets under study are divided into two different categories:
+
+- differential-expression: label-free, or TMT. In differential expression datasets are analyzed completely.
+- absolute-expression: Absolute expression is divided into cell-lines dataets, tissues and datasets are analyzed by Sample.
 
 ## Differential Expression analysis:
 
@@ -12,7 +17,6 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 ```
 
 - All the data is deposited in: https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/
-
 
 ### Differential Expression Label-Free
 
@@ -49,6 +53,7 @@ The datasets are run using the pipeline proteomicsLFQ
 - [ ] PXD020224
 - [ ] PXD021865
 - [ ] PXD020426
+- [ ] PXD001724 and PXD001725:
 
 #### Others
 
@@ -86,6 +91,8 @@ Comments:
 
 The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD002395-Sample-2, PXD002395-Sample-32, PXD004452-Sample-15, PXD004452-Sample-18, PXD005946-Sample-11)
 
+## Absolute Expression analysis:
+
 ### Tissues Proteomes
 
 - [ ] PXD020192: (Running HX)
@@ -106,6 +113,9 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 ### Fluid Proteomes (Plasma, Urine)
 
 - [ ] PXD023650 (To be annotated)
+
+### Cancer cell-lines
+
 
 ### Tumor data
 
