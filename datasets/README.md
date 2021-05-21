@@ -97,11 +97,16 @@ The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD
 
 ## Absolute Expression analysis:
 
+Absolute expression analysis is run using different datasets split by Sample accession. For every dataset, the multiple Samples are included in the results' folder.
+
 ### Tissues Proteomes
 
-- [ ] PXD020192: (Running HX)
-- [ ] **PXD000561**: (Running HH)
+- [ ] PXD000561: **Running**
+- [ ] PXD020192: **Running**
 - [ ] PXD010154: (Running HH)
+
+- Pending
+
 - [x] PXD012755: (Running HH)
 - [ ] PXD008934: (Running HH)
 - [x] PXD008722: (Running HH)
