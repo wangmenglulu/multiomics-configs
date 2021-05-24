@@ -33,14 +33,29 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 
 
 **Running**
+
 - [ ] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Running**
    - [cell-lines]
    - [tumor]
    - [total]
-- [ ] PXD002395: **Running**
-- [ ] PXD008440: **Running**
-- [ ] PXD012431: **To be Run**
-- [ ] PXD014458: **To be Run**
+- [x] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
+- [ ] PXD005571
+- [ ] PXD008440
+- [ ] PXD012431
+- [ ] PXD014458
+- [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
+    - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.1-cell-lines/)
+    - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
+
+
+**Under annotation**
+
+- [ ] PXD001048
+- [ ] PXD002137: To be annotated
+- [ ] PXD015744: To be annotated
+- [ ] PXD019123: To be annotated
+- [ ] PXD025864: To be annotated
+- [ ] PXD002395: To be annotated
 - [ ] PXD003351: To be annotated
 - [ ] PXD005571: To be annotated
 - [ ] PXD009630: **Running**
@@ -54,18 +69,7 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [ ] PXD021865
 - [ ] PXD020426
 - [ ] PXD001724 and PXD001725:
-- [x] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
-- [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
-    - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.1-cell-lines/)
-    - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
 
-**Under annotation**
-
-- [ ] PXD001048
-- [ ] PXD002137: To be annotated
-- [ ] PXD015744: To be annotated
-- [ ] PXD019123: To be annotated
-- [ ] PXD025864: To be annotated
 
 #### Others
 
