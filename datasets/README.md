@@ -36,12 +36,12 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [ ] PXD002137: To be annotated
 - [ ] PXD002395: **Running**
 - [x] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
-- [ ] PXD008440: To be annotated
+- [ ] PXD008440: **Running**
 - [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.1-cell-lines/)
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
-- [ ] PXD012431: **Running**
-- [ ] PXD014458: **Failing**
+- [ ] PXD012431: **To be Run**
+- [ ] PXD014458: **To be Run**
 - [ ] PXD003351: To be annotated
 - [ ] PXD005571: To be annotated
 - [ ] PXD009630: **Running**
@@ -104,7 +104,7 @@ Absolute expression analysis is run using different datasets split by Sample acc
 - [ ] PXD000561: **Running**
 - [ ] PXD020192: **Running**
 - [ ] PXD010154: **Running**
-- [ ] PXD006675: (Running HH)
+- [ ] PXD006675: **Running**
 
 - Pending
 
