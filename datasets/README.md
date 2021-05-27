@@ -42,8 +42,8 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 
 - [ ] PXD005571
 - [ ] PXD008440
-- [ ] PXD012431
-- [ ] PXD014458
+- [ ] PXD012431 (**Comet fails**)
+- [ ] PXD014458 (**Failing**)
 
 
 **Under annotation**
@@ -111,11 +111,14 @@ Absolute expression analysis is run using different datasets split by Sample acc
 ### Tissues Proteomes
 
 - [ ] PXD000561: **Running**
-- [ ] PXD020192: **Running**
+- [X] PXD020192: **Running**
 - [ ] PXD010154: **Running**
 - [ ] PXD006675: **Running**
 
-- Pending
+**To be annotated**
+- [ ] PXD000865
+
+**Pending**
 
 - [ ] PXD012755
 - [ ] PXD008934
