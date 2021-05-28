@@ -29,21 +29,24 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 #### Cancer datasets:
 
 **Already Done***
+- [x] [PXD002395](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD002395.1-cell-line/)
 - [x] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
-- [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
+- [x] [PXD005571](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD005571.2-phenotype-subtype/)
+    - [phenotype](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD005571.1-phenotype/)
+    - [subtype](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD005571.3-subtype/)
+- [x] [PXD008440](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD008440.1-disease-response/)
+- [x] [PXD008722](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD008722.1-organism-part/)
+- [x] [PXD012431](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD012431.1-organism-part/)
+- [x] PXD015270:
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.1-cell-lines/)
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
 - [x] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Running**
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPMID25238572.1-cell-lines/)
     - [tumor](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPMID25238572.2-organism-part/)
-    - total(**Failing because the number of fractions is different across samples, still not supported by ProteomicsLFQ**)
 
 **Running**
 
-- [ ] PXD005571
-- [ ] PXD008440
-- [ ] PXD012431 (**Comet fails**)
-- [ ] PXD014458 (**Failing**)
+
 
 
 **Under annotation**
@@ -68,10 +71,13 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [ ] PXD020426
 - [ ] PXD001724 and PXD001725:
 
+**Failing**
+- [x] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Running**
+    - total(**Failing because the number of fractions is different across samples, still not supported by ProteomicsLFQ**)
+- [x] PXD014458 (**Failing**)
 
 #### Others
 
-- [ ] PXD008722: Running
 - [ ] PXD008934: To be Run
 - [ ] PXD012755: To be Run
 
@@ -111,12 +117,16 @@ Absolute expression analysis is run using different datasets split by Sample acc
 ### Tissues Proteomes
 
 - [ ] PXD000561: **Running**
-- [X] PXD020192: **Running**
+- [X] [PXD020192](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/absolute-expression/proteomes/RPXD020192.1-organism-part/)
 - [ ] PXD010154: **Running**
 - [ ] PXD006675: **Running**
 
 **To be annotated**
 - [ ] PXD000865
+- [ ] PXD009261
+- [ ] PXD009737
+- [ ] PXD009021
+- [ ]
 
 **Pending**
 
