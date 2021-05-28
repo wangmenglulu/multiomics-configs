@@ -119,6 +119,9 @@ Absolute expression analysis is run using different datasets split by Sample acc
 - [ ] PXD010154: **Running**
 - [ ] PXD006675: **Running**
 
+Plasma Datasets:
+- [ ] PXD002854
+
 **To be annotated**
 - [ ] PXD000865
 - [ ] PXD009261
