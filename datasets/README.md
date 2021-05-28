@@ -62,8 +62,6 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [ ] PXD009630: **Running**
 - [ ] PXD012923: To be annotated
 - [ ] PXD012998: To be annotated
-    - [cell-lines]
-    - [phenotype]
 - [ ] PXD023272
 - [ ] PXD022268
 - [ ] PXD020224
