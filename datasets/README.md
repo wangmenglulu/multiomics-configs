@@ -40,13 +40,13 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [x] PXD015270:
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.1-cell-lines/)
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
-- [x] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Running**
+- [x] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript:
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPMID25238572.1-cell-lines/)
     - [tumor](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPMID25238572.2-organism-part/)
 
 **Running**
 
-
+- [ ] PXD002137
 
 
 **Under annotation**
@@ -59,7 +59,7 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [ ] PXD002395: To be annotated
 - [ ] PXD003351: To be annotated
 - [ ] PXD005571: To be annotated
-- [ ] PXD009630: **Running**
+- [ ] PXD009630: To be annotated
 - [ ] PXD012923: To be annotated
 - [ ] PXD012998: To be annotated
 - [ ] PXD023272
@@ -70,43 +70,14 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [ ] PXD001724 and PXD001725:
 
 **Failing**
-- [x] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Running**
+- [x] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Failing**
     - total(**Failing because the number of fractions is different across samples, still not supported by ProteomicsLFQ**)
-- [x] PXD014458 (**Failing**)
+- [x] PXD014458 (**Failing because the TRFP do not convert all the scans to mzML**)
 
 #### Others
 
 - [ ] PXD008934: To be Run
 - [ ] PXD012755: To be Run
-
-## Cancer Cell-lines datasets
-
-These datasets are use for IBAQ-based absolute quantification. Some of then can be also seen in the Differential expression section.
-
-#### Label-free experiments
-- [ ] PXD000396: (This dataset is analytical)
-- [ ] PXD002395
-- [ ] PXD003209
-- [ ] PXD004452 (Running - DecoyPyrat)
-- [ ] PXD005366
-- [ ] PXD005698
-- [ ] PXD005940
-- [ ] PXD005942
-- [x] PXD005946 (small errors in some Samples)
-- [x] PXD012255
-- [x] PXD015270
-- [x] PXD019263 (Running - DecoyPyrat)
-
-#### TMT experiments analyzed as Label-free
-- [x] PXD014145 (Finish - http://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/pgdb-manuscript/PXD014145-Sample-1/)
-
-
-Number of Samples: 246
-Number of Raw Files: 2360
-
-Comments:
-
-The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD002395-Sample-2, PXD002395-Sample-32, PXD004452-Sample-15, PXD004452-Sample-18, PXD005946-Sample-11)
 
 ## Absolute Expression analysis:
 
@@ -158,5 +129,34 @@ Plasma Datasets:
 ### Synthectic Projects
 
 - PXD000759
+
+## Cancer Cell-lines datasets
+
+These datasets are use for IBAQ-based absolute quantification. Some of then can be also seen in the Differential expression section.
+
+#### Label-free experiments
+- [ ] PXD000396: (This dataset is analytical)
+- [ ] PXD002395
+- [ ] PXD003209
+- [ ] PXD004452 (Running - DecoyPyrat)
+- [ ] PXD005366
+- [ ] PXD005698
+- [ ] PXD005940
+- [ ] PXD005942
+- [x] PXD005946 (small errors in some Samples)
+- [x] PXD012255
+- [x] PXD015270
+- [x] PXD019263 (Running - DecoyPyrat)
+
+#### TMT experiments analyzed as Label-free
+- [x] PXD014145 (Finish - http://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/pgdb-manuscript/PXD014145-Sample-1/)
+
+
+Number of Samples: 246
+Number of Raw Files: 2360
+
+Comments:
+
+The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD002395-Sample-2, PXD002395-Sample-32, PXD004452-Sample-15, PXD004452-Sample-18, PXD005946-Sample-11)
 
 
