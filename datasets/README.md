@@ -47,6 +47,7 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 **Running**
 
 - [ ] PXD002137
+- [ ] PXD012998
 
 
 **Under annotation**
