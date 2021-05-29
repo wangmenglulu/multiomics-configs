@@ -122,7 +122,7 @@ Absolute expression analysis is run using different datasets split by Sample acc
 Plasma Datasets:
 
 - [ ] PXD002854
-- [ ] PXD004242
+- [ ] PXD004242 (**Error label experimental design**)
 
 **To be annotated**
 - [ ] PXD000865
