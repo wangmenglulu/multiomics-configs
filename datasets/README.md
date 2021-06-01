@@ -28,30 +28,39 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 
 #### Cancer datasets:
 
-- [ ] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Running**
-   - [cell-lines]
-   - [tumor]
-   - [total]
-- [ ] PXD001048
-- [ ] PXD002137: To be annotated
-- [ ] PXD002395: **Running**
+**Already Done***
+- [x] [PXD002395](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD002395.1-cell-line/)
 - [x] [PXD004682](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD004682.1-organism-part/)
-- [ ] PXD008440: **Running**
-- [x] [PXD015270](https://www.ebi.ac.uk/pride/archive/projects/PXD015270): This project is divided in two different SDRFs
+- [x] [PXD005571](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD005571.2-phenotype-subtype/)
+    - [phenotype](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD005571.1-phenotype/)
+    - [subtype](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD005571.3-subtype/)
+- [x] [PXD008440](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD008440.1-disease-response/)
+- [x] [PXD008722](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD008722.1-organism-part/)
+- [x] [PXD012431](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD012431.1-organism-part/)
+- [ ] [PXD012998](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD012998.1-histologic-subtype/)
+- [x] PXD015270:
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.1-cell-lines/)
     - [organism-part](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD015270.2-organism-part/)
-- [ ] PXD012431: **To be Run**
-- [ ] PXD014458: **To be Run**
-- [ ] PXD003351: To be annotated
-- [ ] PXD005571: To be annotated
-- [ ] PXD009630: **Running**
-- [ ] PXD012923: To be annotated
-- [ ] PXD012998: To be annotated
-    - [cell-lines]
-    - [phenotype]
+- [x] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript:
+    - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPMID25238572.1-cell-lines/)
+    - [tumor](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPMID25238572.2-organism-part/)
+
+**Running**
+
+- [ ] PXD002137
+
+**Under annotation**
+
+- [ ] PXD001048
+- [ ] PXD002137: To be annotated
 - [ ] PXD015744: To be annotated
 - [ ] PXD019123: To be annotated
 - [ ] PXD025864: To be annotated
+- [ ] PXD002395: To be annotated
+- [ ] PXD003351: To be annotated
+- [ ] PXD005571: To be annotated
+- [ ] PXD009630: To be annotated
+- [ ] PXD012923: To be annotated
 - [ ] PXD023272
 - [ ] PXD022268
 - [ ] PXD020224
@@ -59,12 +68,66 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [ ] PXD020426
 - [ ] PXD001724 and PXD001725:
 
+**Failing**
+- [x] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript: **Failing**
+    - total(**Failing because the number of fractions is different across samples, still not supported by ProteomicsLFQ**)
+- [x] PXD014458 (**Failing because the TRFP do not convert all the scans to mzML**)
+
 #### Others
 
-- [ ] PXD008722: Running
 - [ ] PXD008934: To be Run
 - [ ] PXD012755: To be Run
 
+## Absolute Expression analysis:
+
+Absolute expression analysis is run using different datasets split by Sample accession. For every dataset, the multiple Samples are included in the results' folder.
+
+### Tissues Proteomes
+
+- [ ] PXD000561: **Running**
+- [X] [PXD020192](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/absolute-expression/proteomes/RPXD020192.1-organism-part/)
+- [ ] PXD010154: **Running**
+- [ ] PXD006675: **Running**
+
+Plasma Datasets:
+
+- [ ] PXD002854
+- [ ] PXD004242 (**Error label experimental design**)
+
+**To be annotated**
+- [ ] PXD000865
+- [ ] PXD009261
+- [ ] PXD009737
+- [ ] PXD009021
+- [ ]
+
+**Pending**
+
+- [ ] PXD012755
+- [ ] PXD008934
+- [ ] PXD008722
+- [ ] PXD006675
+- [ ] PXD023650
+
+- Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
+- Hart Tissue proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005736) (To be annotated)
+- Choroid tissue (https://www.ebi.ac.uk/pride/archive/projects/PXD002273) (To be annotated)
+- Brain Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005445) (Annotated wronly)
+- Pancreas (https://www.iprox.org/page/project.html?id=IPX0001745000) (To be annotated)
+- Eccrine sweat glands (https://www.ebi.ac.uk/pride/archive/projects/PXD010637) (To be annotated)
+
+
+### Tumor data
+
+- PXD012431 (High-throughput mass spectrometry and bioinformatics analysis of breast cancer proteomic data):
+    - SDRF: https://github.com/bigbio/proteomics-metadata-standard/blob/4905da47fbbbdd9879333b76687028e4b88f5459/annotated-projects/PXD012431/sdrf.tsv
+    - PRIDE: https://www.ebi.ac.uk/pride/archive/projects/PXD012431
+    - Publication: http://europepmc.org/article/MED/31294064
+    - biology: breast cancer, label-free
+
+### Synthectic Projects
+
+- PXD000759
 
 ## Cancer Cell-lines datasets
 
@@ -94,49 +157,5 @@ Number of Raw Files: 2360
 Comments:
 
 The following samples are not in CBioPortal or Cosmic: (PXD002395-Sample-17, PXD002395-Sample-2, PXD002395-Sample-32, PXD004452-Sample-15, PXD004452-Sample-18, PXD005946-Sample-11)
-
-## Absolute Expression analysis:
-
-Absolute expression analysis is run using different datasets split by Sample accession. For every dataset, the multiple Samples are included in the results' folder.
-
-### Tissues Proteomes
-
-- [ ] PXD000561: **Running**
-- [ ] PXD020192: **Running**
-- [ ] PXD010154: **Running**
-- [ ] PXD006675: **Running**
-
-- Pending
-
-- [x] PXD012755: (Running HH)
-- [ ] PXD008934: (Running HH)
-- [x] PXD008722: (Running HH)
-- [ ] PXD006675: (Running HH)
-
-- Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
-- Hart Tissue proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005736) (To be annotated)
-- Choroid tissue (https://www.ebi.ac.uk/pride/archive/projects/PXD002273) (To be annotated)
-- Brain Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005445) (Annotated wronly)
-- Pancreas (https://www.iprox.org/page/project.html?id=IPX0001745000) (To be annotated)
-- Eccrine sweat glands (https://www.ebi.ac.uk/pride/archive/projects/PXD010637) (To be annotated)
-
-### Fluid Proteomes (Plasma, Urine)
-
-- [ ] PXD023650 (To be annotated)
-
-### Cancer cell-lines
-
-
-### Tumor data
-
-- PXD012431 (High-throughput mass spectrometry and bioinformatics analysis of breast cancer proteomic data):
-    - SDRF: https://github.com/bigbio/proteomics-metadata-standard/blob/4905da47fbbbdd9879333b76687028e4b88f5459/annotated-projects/PXD012431/sdrf.tsv
-    - PRIDE: https://www.ebi.ac.uk/pride/archive/projects/PXD012431
-    - Publication: http://europepmc.org/article/MED/31294064
-    - biology: breast cancer, label-free
-
-### Synthectic Projects
-
-- PXD000759
 
 
