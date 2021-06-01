@@ -1,0 +1,34 @@
+MAGE-TAB Version	1.1
+Investigation Title	Mass spectrometry based draft of the human proteome
+Experiment Description	This PXD project contains two projects published on ProteomicsDB (https://www.proteomicsDB.org) as integral part of the publication. The first project entitled 'human body map' (https://www.proteomicsdb.org/#projects/42) involves the analysis of 36 different human tissues and body fluids. The second project entitled 'Cellzome adopted' includes a collection of raw files which comprises identifications of 'missing proteins'.
+
+Date of Experiment	2014-03-28
+Public Release Date	2014-05-28
+
+Protocol Name	P-MTAB-Sample-PXD000865	P-MTAB-Data-PXD000865
+Protocol Type	sample collection protocol	data analysis protocol
+Protocol Description	Human tissue specimens were obtained from the bio bank of the TU München following approval of the study by the local ethics committee. Samples were collected within the first 30 minutes after resection, macroscopically resected by an experienced pathologist, snap frozen and stored in liquid nitrogen until use. Body fluids requiring no invasive procedures were provided by volunteers. Proteins were extracted under denaturing conditions and either separated by LDS-PAGE followed by in-gel protease digestion or digested in solution in the presence of chaotropic agents. Peptides were separated by ultra-high pressure nanoscale liquid chromatography on 75 μm x 40 cm reversed-phase columns using gradients of 2-32% acetonitrile in 0.1% formic acid, 5% DMSO. The LC was coupled directly to an Orbitrap mass spectrometer, operating in data dependent mode and using either resonance-type or beam-type collision induced dissociation.	For peptide identification, tandem mass spectra were processed using Mascot Distiller and searched against Uniprot using Mascot and a target-decoy strategy. In parallel, raw MS files were also processed by MaxQuant/Andromeda. All search results and tandem mass spectra were imported into ProteomicsDB (https://www.proteomicsdb.org) and filtered at 1% PSM FDR and 5% local peptide length dependent FDR.
+Protocol Parameters
+Protocol Hardware	LTQ Orbitrap Elite;LTQ Orbitrap Velos
+Protocol Software
+Protocol Contact
+
+Person Last Name	Hahne	Kuster
+Person First Name	Hannes	Bernhard
+Person Mid Initials
+Person Email	hannes.hahne@tum.de	kuster@tum.de
+Person Phone
+Person Fax
+Person Affiliation	Chair of Proteomics and Bioanalytics	Technische Universitaet Muenchen Chair of Proteomics and Bioanalytics
+Person Address
+Person Roles	submitter	principal investigator
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Experimental Factor Name	organism part
+
+SDRF File	PXD000865.sdrf.tsv
+Comment[SDRF-Proteomics version]	1.1
+Comment[TemplateType]	proteomics
+
+Comment[ProteomeXchange accession number]	PXD000865
