@@ -52,16 +52,16 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 **Under annotation**
 
 - [ ] PXD001048
-- [ ] PXD002137: To be annotated
-- [ ] PXD015744: To be annotated
-- [ ] PXD019123: To be annotated
+- [x] PXD002137
+- [x] PXD015744
+- [x] PXD019123
 - [ ] PXD025864: To be annotated
-- [ ] PXD002395: To be annotated
-- [ ] PXD003351: To be annotated
-- [ ] PXD005571: To be annotated
-- [ ] PXD009630: To be annotated
-- [ ] PXD012923: To be annotated
-- [ ] PXD023272
+- [x] PXD002395
+- [x] PXD003351
+- [x] PXD005571
+- [x] PXD009630
+- [x] PXD012923
+- [x] PXD023272
 - [ ] PXD022268
 - [ ] PXD020224
 - [ ] PXD021865
