@@ -1,0 +1,34 @@
+MAGE-TAB Version	1.1
+Investigation Title	Proteome profilling of chromophobe renal cell carcinomas
+Experiment Description	LC-MS/MS based proteomics study of chromophobe renal cell carcinomas versus the adjacent healthy kidney tissues, nine patients included. The chromophobe renal cell carcinoma cells (UOK276) under different conditions were also analyzed.
+
+Date of Experiment	2020-05-12
+Public Release Date	2020-07-23
+
+Protocol Name	P-MTAB-Sample-PXD019123	P-MTAB-Data-PXD019123
+Protocol Type	sample collection protocol	data analysis protocol
+Protocol Description	Tissues were homogenized and the sample processing was done with the iST kit according to the instruction from PreOmics. Proteomic profiling of the UOK276 cells was performed as reported previously (PMCID:PMC5739687) in biological triplicates.	Raw MS data were processed with MaxQuant software with the Andromeda search engine. A false discovery rate (FDR) of 0.01 for proteins, peptides and spectra was applied.
+Protocol Parameters
+Protocol Hardware	Q Exactive HF
+Protocol Software
+Protocol Contact
+
+Person Last Name	Xiao	Meierhofer
+Person First Name	Yi	David
+Person Mid Initials
+Person Email	yixiao@molgen.mpg.de	meierhof@molgen.mpg.de
+Person Phone
+Person Fax
+Person Affiliation	Max Planck Institute for Molecular Genetics	Max Planck Institute for Molecular Genetics
+Person Address
+Person Roles	submitter	principal investigator
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Experimental Factor Name
+
+SDRF File	PXD019123.sdrf.tsv
+Comment[SDRF-Proteomics version]	1.1
+Comment[TemplateType]	proteomics
+
+Comment[ProteomeXchange accession number]	PXD019123
