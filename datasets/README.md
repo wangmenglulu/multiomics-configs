@@ -91,15 +91,14 @@ Absolute expression analysis is run using different datasets split by Sample acc
 
 Plasma Datasets:
 
-- [ ] PXD002854
-- [ ] PXD004242 (**Error label experimental design**)
+- [ ] PXD004242: **Running**
 
 **To be annotated**
 - [ ] PXD000865
 - [ ] PXD009261
 - [ ] PXD009737
 - [ ] PXD009021
-- [ ]
+- [ ] PXD002854
 
 **Pending**
 
