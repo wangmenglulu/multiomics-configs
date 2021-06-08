@@ -44,11 +44,12 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [x] PMID25238572: This dataset needs to be annotated across multiple datasets in PRIDE as described in the manuscript:
     - [cell-lines](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPMID25238572.1-cell-lines/)
     - [tumor](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPMID25238572.2-organism-part/)
+- [x] [PXD019123](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD019123.1-disease/)
 
 **Running**
 
 - [ ] PXD002137
-- [ ] PXD019123
+- [ ] PXD023272
 
 **Under annotation**
 
