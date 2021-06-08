@@ -34,27 +34,4 @@ PXD023505-Sample-11	Homo sapiens	breast	not applicable	not applicable	not applic
 PXD023505-Sample-11	Homo sapiens	breast	not applicable	not applicable	not applicable	breast cancer	not applicable	female	not applicable	metastatic breast cancer	5	MDA-MB-231 cell	cell	run 33	proteomic profiling by mass spectrometry	MDA_MV_2_C.raw	http://ftp.pride.ebi.ac.uk/pride/data/archive/2021/01/PXD023505/MDA_MV_2_C.raw	3	1	AC=MS:1002038;NT=label free sample	AC=MS:1002416;NT=Orbitrap Fusion	NT=Trypsin; AC=MS:1001251	NT=Carbamidomethyl;AC=UNIMOD:4;TA=C;MT=Fixed	"NT=Oxidation;AC=UNIMOD:35;TA=M,P;MT=Variable"	NT=Acetyl;AC=UNIMOD:1;PP=Protein N-term;MT=variable	20 ppm	7 ppm	metastatic breast cancer
 PXD023505-Sample-12	Homo sapiens	breast	not applicable	not applicable	not applicable	breast cancer	not applicable	female	not applicable	metastatic breast cancer	6	MDA-MB-231 cell	cell	run 34	proteomic profiling by mass spectrometry	MDA_MV_3_A.raw	http://ftp.pride.ebi.ac.uk/pride/data/archive/2021/01/PXD023505/MDA_MV_3_A.raw	1	1	AC=MS:1002038;NT=label free sample	AC=MS:1002416;NT=Orbitrap Fusion	NT=Trypsin; AC=MS:1001251	NT=Carbamidomethyl;AC=UNIMOD:4;TA=C;MT=Fixed	"NT=Oxidation;AC=UNIMOD:35;TA=M,P;MT=Variable"	NT=Acetyl;AC=UNIMOD:1;PP=Protein N-term;MT=variable	20 ppm	7 ppm	metastatic breast cancer
 PXD023505-Sample-12	Homo sapiens	breast	not applicable	not applicable	not applicable	breast cancer	not applicable	female	not applicable	metastatic breast cancer	6	MDA-MB-231 cell	cell	run 35	proteomic profiling by mass spectrometry	MDA_MV_3_B.raw	http://ftp.pride.ebi.ac.uk/pride/data/archive/2021/01/PXD023505/MDA_MV_3_B.raw	2	1	AC=MS:1002038;NT=label free sample	AC=MS:1002416;NT=Orbitrap Fusion	NT=Trypsin; AC=MS:1001251	NT=Carbamidomethyl;AC=UNIMOD:4;TA=C;MT=Fixed	"NT=Oxidation;AC=UNIMOD:35;TA=M,P;MT=Variable"	NT=Acetyl;AC=UNIMOD:1;PP=Protein N-term;MT=variable	20 ppm	7 ppm	metastatic breast cancer
-PXD023505-Sample-12	Homo sapiens	breast	not applicable	not applicable	not applicable	breast cancer	not applicable	female	not applicable	metastatic breast cancer	6	MDA-MB-231 cell	cell	run 36	proteomic profiling by mass spectrometry	MDA_MV_3_C.raw   	http://ftp.pride.ebi.ac.uk/pride/data/archive/2021/01/PXD023505/MDA_MV_3_C.raw   	3	1	AC=MS:1002038;NT=label free sample	AC=MS:1002416;NT=Orbitrap Fusion	NT=Trypsin; AC=MS:1001251	NT=Carbamidomethyl;AC=UNIMOD:4;TA=C;MT=Fixed	"NT=Oxidation;AC=UNIMOD:35;TA=M,P;MT=Variable"	NT=Acetyl;AC=UNIMOD:1;PP=Protein N-term;MT=variable	20 ppm	7 ppm	metastatic breast cancer
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
-																												
+PXD023505-Sample-12	Homo sapiens	breast	not applicable	not applicable	not applicable	breast cancer	not applicable	female	not applicable	metastatic breast cancer	6	MDA-MB-231 cell	cell	run 36	proteomic profiling by mass spectrometry	MDA_MV_3_C.raw	http://ftp.pride.ebi.ac.uk/pride/data/archive/2021/01/PXD023505/MDA_MV_3_C.raw	3	1	AC=MS:1002038;NT=label free sample	AC=MS:1002416;NT=Orbitrap Fusion	NT=Trypsin; AC=MS:1001251	NT=Carbamidomethyl;AC=UNIMOD:4;TA=C;MT=Fixed	"NT=Oxidation;AC=UNIMOD:35;TA=M,P;MT=Variable"	NT=Acetyl;AC=UNIMOD:1;PP=Protein N-term;MT=variable	20 ppm	7 ppm	metastatic breast cancer
