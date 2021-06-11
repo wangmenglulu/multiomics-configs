@@ -66,8 +66,8 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [ ] PXD023272: annotated
 - [ ] PXD022268
 - [ ] PXD020224
-- [ ] PXD021865
-- [ ] PXD020426
+- [ ] PXD021865: annotated
+- [ ] PXD020426: annotated
 - [ ] PXD001724 and PXD001725:
 
 **Failing**
