@@ -46,12 +46,15 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
     - [tumor](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPMID25238572.2-organism-part/)
 - [x] [PXD019123](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD019123.1-disease/)
 - [x] [PXD025864](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD025864.1-disease/)
+- [x][PXD023508]
+    - [mutation-carrier](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD023508.1-mutation-carrier/)
+    - [disease](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD023508.2-disease/)
+    - [phenotype](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD023508.3-phenotype/)
+- [x][PXD023272](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/differential-expression/RPXD023272.1-organism-part/)
 
 **Running**
 
 - [ ] PXD002137
-- [ ] PXD023272
-- [ ] PXD023508
 
 **Under annotation**
 
@@ -64,7 +67,6 @@ nextflow run /hps/nobackup2/proteomics/yperez_temp/proteomicslfq/main.nf -c /hps
 - [ ] PXD005571: annotated
 - [ ] PXD009630: annotated
 - [ ] PXD012923: annotated
-- [ ] PXD023272: annotated
 - [ ] PXD022268
 - [ ] PXD020224
 - [ ] PXD021865: annotated
