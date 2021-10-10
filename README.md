@@ -25,7 +25,13 @@ The **factor value** for each absolute expression dataset should be the **organi
 - dia 
 - tmt 
 
+**NOTE**: For each dataset only one factor value should be added for each SDRF. If more than one variable is studied, then multiple SDRFs should be added with the following structure PXD-{factor value}.sdrf.tsv 
 
+If possible, creates the IDF for each dataset. 
+
+### Contributing
+
+If you want to add a dataset to the repository please create a Pull request with the annotations. 
 
 
 
