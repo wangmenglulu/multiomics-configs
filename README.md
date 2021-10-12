@@ -38,7 +38,7 @@ The Database folder contains multiple databases created for the reanalysis of da
 
 ### Detecting Non-canonical Peptides in Cell-lines and Tumor data
 
-LFQ and TMT datasets are search against non-canonical and tissue specific variant databases generated with pgdb nextflow pipeline. The list of datasets can be found [here](?)
+LFQ and TMT datasets are search against non-canonical and tissue specific variant databases generated with pgdb nextflow pipeline. The list of datasets can be found [here](https://github.com/multiomics/multiomics-configs/tree/master/projects/non-canonical)
 
 ### Contributing
 
