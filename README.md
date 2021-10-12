@@ -29,6 +29,12 @@ The **factor value** for each absolute expression dataset should be the **organi
 
 If possible, creates the IDF for each dataset. 
 
+## Projects 
+
+### Detecting Non-canonical Peptides in Cell-lines and Tumor data 
+
+LFQ and TMT datasets are search against non-canonical and tissue specific variant databases generated with pgdb nextflow pipeline. The list of datasets can be found [here](?)
+
 ### Contributing
 
 If you want to add a dataset to the repository please create a Pull request with the annotations. 
