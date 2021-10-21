@@ -25,9 +25,9 @@ Person Roles	submitter	principal investigator
 Person Roles Term Source REF
 Person Roles Term Accession Number
 
-Experimental Factor Name	disease
+Experimental Factor Name	cell line
 
-SDRF File	PXD018891-disease.sdrf.tsv
+SDRF File	PXD018891-cell_line.sdrf.tsv
 Comment[SDRF-Proteomics version]	1.1
 Comment[TemplateType]	proteomics
 
