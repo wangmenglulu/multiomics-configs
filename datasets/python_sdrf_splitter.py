@@ -21,9 +21,9 @@ def main(input, property, subproperty, project):
     for key in d:
       dataframe = d[key]
       if(subproperty is None):
-        name_file = name_project + key.replace(" ", "-") + '.tsv'
+        name_file = name_project + key.replace(" ", "-") + '.sdrf.tsv'
       else:
-        name_file = name_project + key[0].replace(" ", "-") + "-" + key[1].replace(" ", "-") + '.tsv'
+        name_file = name_project + key[0].replace(" ", "-") + "-" + key[1].replace(" ", "-") + '.sdrf.tsv'
       dataframe.to_csv(name_file ,sep='\t', quoting=csv.QUOTE_NONE, index=False)
     print(d)
 
