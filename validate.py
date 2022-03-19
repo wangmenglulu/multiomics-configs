@@ -165,7 +165,6 @@ def main(args):
                 error_files.add(os.path.basename(sdrf_file))
             except:
               print(sdrf_file)
-
             if error_types:
                 result = 'Failed ' + ', '.join(error_types) + ' validation ({})'.format(', '.join(error_files))
                 status = 2
@@ -174,8 +173,6 @@ def main(args):
                 status = 1
             if status < 2:
                 result = '[{} template]\t'.format(', '.join(templates) if templates else 'default') + result
-            else:
-                result = 'SDRF file not found'
             statuses.append(status)
             messages.append(result)
             if args.verbose == 2:
