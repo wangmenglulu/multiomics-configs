@@ -146,25 +146,28 @@ def main(args):
                 result = 'OK'
                 for sdrf_file in sdrf_files:
                     errors = []
-                    df = sdrf.SdrfDataFrame.parse(sdrf_file)
-                    err = df.validate(sdrf_schema.DEFAULT_TEMPLATE)
-                    errors.extend(err)
-                    if has_errors(err):
+                    try:
+                      df = sdrf.SdrfDataFrame.parse(sdrf_file)
+                      err = df.validate(sdrf_schema.DEFAULT_TEMPLATE)
+                      errors.extend(err)
+                      if has_errors(err):
                         error_types.add('basic')
-                    else:
+                      else:
                         templates = get_template(df)
                         if templates:
-                            for t in templates:
-                                err = df.validate(t)
-                                errors.extend(err)
-                                if has_errors(err):
-                                    error_types.add('{} template'.format(t))
+                          for t in templates:
+                            err = df.validate(t)
+                            errors.extend(err)
+                            if has_errors(err):
+                              error_types.add('{} template'.format(t))
                         err = df.validate(sdrf_schema.MASS_SPECTROMETRY)
                         errors.extend(err)
                         if has_errors(err):
-                            error_types.add('mass spectrometry')
-                    if has_errors(errors):
+                          error_types.add('mass spectrometry')
+                      if has_errors(errors):
                         error_files.add(os.path.basename(sdrf_file))
+                    except:
+                      print(sdrf_file)
                 if error_types:
                     result = 'Failed ' + ', '.join(error_types) + ' validation ({})'.format(', '.join(error_files))
                     status = 2
