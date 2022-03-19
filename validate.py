@@ -12,8 +12,8 @@ from pandas_schema import ValidationWarning
 from sdrf_pipelines.zooma import ols
 from sdrf_pipelines.sdrf import sdrf, sdrf_schema
 
-DIR = 'annotated-projects'
-PROJECTS = os.listdir(DIR)
+DIR_LFQ = 'datasets/differential-datasets/label-free/'
+PROJECTS = os.listdir(DIR_LFQ)
 client = ols.OlsClient()
 
 
