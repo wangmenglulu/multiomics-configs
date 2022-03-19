@@ -13,7 +13,19 @@ from sdrf_pipelines.zooma import ols
 from sdrf_pipelines.sdrf import sdrf, sdrf_schema
 
 DIR_LFQ = 'datasets/differential-datasets/label-free/'
+DIR_TMT = 'datasets/differential-datasets/tmt/'
+DIR_DIA = 'datasets/differential-datasets/dia/'
+DIR_ABS = 'datasets/absolute-expression/'
+
+def get_files_sdrf():
+  lfq = glob.glob(DIR_LFQ + '**/*.sdrf.tsv')
+  tmt = glob.glob(DIR_TMT + '**/*.sdrf.tsv')
+  dia = glob.glob(DIR_DIA + '**/*.sdrf.tsv')
+  abs = glob.glob(DIR_ABS + '**/**/*.sdrf.tsv')
+  return lfq + tmt + dia + abs
+
 PROJECTS = os.listdir(DIR_LFQ)
+
 client = ols.OlsClient()
 
 
@@ -124,7 +136,7 @@ def main(args):
     i = 0
     try:
         for project in projects:
-            sdrf_files = glob.glob(os.path.join(DIR, project, '*.sdrf.tsv'))
+            sdrf_files = get_files_sdrf()
             error_types = set()
             error_files = set()
             status = 0
