@@ -89,9 +89,6 @@ Absolute expression analysis is run using different datasets split by Sample acc
 
 ### Tissues Proteomes
 
-- [ ] PXD000561: **Running**
-- [X] [PXD020192](https://ftp.pride.ebi.ac.uk/pride/data/proteomes/proteogenomics/absolute-expression/proteomes/RPXD020192.1-organism-part/)
-- [ ] PXD010154: **Running**
 - [ ] PXD006675: **Running**
 
 Plasma Datasets:
@@ -99,7 +96,7 @@ Plasma Datasets:
 - [ ] PXD004242: **Running**
 
 **To be annotated**
-- [ ] PXD000865
+
 - [ ] PXD009261
 - [ ] PXD009737
 - [ ] PXD009021
