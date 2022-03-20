@@ -32,15 +32,48 @@ For each category the factor value is different:
 
 ## Datasets
 
+### Tissues
+
 - PXD000561: LFQ experiment, tissue proteomes, 2212 raw files
 - PXD000865: LFQ experiment, tissue proteomes, 1055 raw files
 - PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
 - PXD020192: LFQ experiment, tissue proteomes, 92 raw files
+- PXD010271: LFQ experiment, tissue proteomes, 220 raw files
 
 - brain:
   - PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
   - PXD012755: LFQ experiment, brain, 32 raw files
 
 - skin:
-  - PXD019909: LFQ experiment, tissue proteomes, 152 raw files
+  - PXD019909: LFQ experiment, skin, 152 raw files
 
+- heart:
+  - PXD008934: LFQ experiment, heart, 34 raw files
+  - PXD006675: LFQ experiment, heart, 594 raw files
+  - PXD005736: LFQ experiment, heart, 30 raw files
+
+- stomach:
+  - PXD008840: LFQ experiment, stomach, 504 raw files
+
+- lung:
+  - PXD004700: LFQ experiment, lung, 46 raw files
+
+- Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
+- Choroid tissue (https://www.ebi.ac.uk/pride/archive/projects/PXD002273) (To be annotated)
+- Brain Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005445) (Annotated wronly)
+- Pancreas (https://www.iprox.org/page/project.html?id=IPX0001745000) (To be annotated)
+- Eccrine sweat glands (https://www.ebi.ac.uk/pride/archive/projects/PXD010637) (To be annotated)
+
+
+### Plasma
+
+- PXD011839
+- PXD004242
+
+### Tumor datasets
+
+- PXD012431 (High-throughput mass spectrometry and bioinformatics analysis of breast cancer proteomic data):
+    - SDRF: https://github.com/bigbio/proteomics-metadata-standard/blob/4905da47fbbbdd9879333b76687028e4b88f5459/annotated-projects/PXD012431/sdrf.tsv
+    - PRIDE: https://www.ebi.ac.uk/pride/archive/projects/PXD012431
+    - Publication: http://europepmc.org/article/MED/31294064
+    - biology: breast cancer, label-free
