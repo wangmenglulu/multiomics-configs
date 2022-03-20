@@ -28,7 +28,6 @@ PROJECTS = os.listdir(DIR_LFQ)
 
 client = ols.OlsClient()
 
-
 def retry(func):
     def wrapper(*args, **kwargs):
         for i in range(5):
@@ -125,74 +124,82 @@ def collapse_warnings(errors):
                 len(gr), col, w.row, w.value, message))
     return messages
 
+def remove_biological_replicates(errors):
+  err_result = []
+  for err in errors:
+   if 'biological replicate' not in err.message and 'technical replicate' not in err.message:
+     err_result.append(err)
+  return err_result
 
 def main(args):
     statuses = []
     messages = []
     if args.project:
-        projects = args.project
+        sdrf_files = [args.project[1]]
     else:
-        projects = PROJECTS
+        sdrf_files = get_files_sdrf()
     i = 0
     try:
-        sdrf_files = get_files_sdrf()
-        for sdrf_file in sdrf_files:
-            error_types = set()
-            error_files = set()
-            status = 0
-            templates = []
-            result = 'OK'
-            errors = []
-            try:
-              df = sdrf.SdrfDataFrame.parse(sdrf_file)
-              err = df.validate(sdrf_schema.DEFAULT_TEMPLATE)
-              errors.extend(err)
-              if has_errors(err):
-                error_types.add('basic')
-              else:
-                templates = get_template(df)
-                if templates:
-                  for t in templates:
-                    err = df.validate(t)
-                    errors.extend(err)
-                    if has_errors(err):
-                      error_types.add('{} template'.format(t))
-                err = df.validate(sdrf_schema.MASS_SPECTROMETRY)
+      for sdrf_file in sdrf_files:
+        error_types = set()
+        error_files = set()
+        status = 0
+        templates = []
+        result = 'OK'
+        errors = []
+        try:
+          df = sdrf.SdrfDataFrame.parse(sdrf_file)
+          err = df.validate(sdrf_schema.DEFAULT_TEMPLATE)
+          err = remove_biological_replicates(err)
+          errors.extend(err)
+          if has_errors(err):
+            error_types.add('basic')
+          else:
+            templates = get_template(df)
+            if templates:
+              for t in templates:
+                err = df.validate(t)
+                err = remove_biological_replicates(err)
                 errors.extend(err)
                 if has_errors(err):
-                  error_types.add('mass spectrometry')
-              if has_errors(errors):
-                error_files.add(os.path.basename(sdrf_file))
-            except:
-              print(sdrf_file)
-            if error_types:
-                result = 'Failed ' + ', '.join(error_types) + ' validation ({})'.format(', '.join(error_files))
-                status = 2
-            elif has_warnings(errors):
-                result = 'OK (with warnings)'
-                status = 1
-            if status < 2:
-                result = '[{} template]\t'.format(', '.join(templates) if templates else 'default') + result
-            statuses.append(status)
-            messages.append(result)
-            if args.verbose == 2:
-                for err in errors:
-                    print(err)
-            elif args.verbose:
-                for w in collapse_warnings(errors):
-                    print(w)
-                for err in errors:
-                    if is_error(err):
-                        print(err)
-            print(sdrf_file, result, sep='\t')
-            i += 1
+                  error_types.add('{} template'.format(t))
+            err = df.validate(sdrf_schema.MASS_SPECTROMETRY)
+            err = remove_biological_replicates(err)
+            errors.extend(err)
+            if has_errors(err):
+              error_types.add('mass spectrometry')
+          if has_errors(errors):
+            error_files.add(os.path.basename(sdrf_file))
+        except:
+          print(sdrf_file)
+        if error_types:
+          result = 'Failed ' + ', '.join(error_types) + ' validation ({})'.format(', '.join(error_files))
+          status = 2
+        elif has_warnings(errors):
+          result = 'OK (with warnings)'
+          status = 1
+        if status < 2:
+          result = '[{} template]\t'.format(', '.join(templates) if templates else 'default') + result
+        statuses.append(status)
+        messages.append(result)
+        if args.verbose == 2:
+          for err in errors:
+            print(err)
+        elif args.verbose:
+          for w in collapse_warnings(errors):
+            print(w)
+          for err in errors:
+            if is_error(err):
+              print(err)
+        print(sdrf_file, result, sep='\t')
+        i += 1
     except KeyboardInterrupt:
         pass
     finally:
         errors = sum(s == 2 for s in statuses)
         warnings = sum(s == 1 for s in statuses)
         print('Final results:')
-        print(f'Total: {i} of {len(projects)} projects checked, '
+        print(f'Total: {i} of {len(sdrf_files)} projects checked, '
               f'{errors} had validation errors, {warnings} had validation warnings.')
     return errors
 
