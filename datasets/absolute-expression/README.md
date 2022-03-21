@@ -61,6 +61,7 @@ For each category the factor value is different:
   - PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
   - PXD011349: LFQ experiment, heart, 55 raw files
   - PXD028099: LFQ experiment, heart, 20 raw files
+  - PXD008852: DIA-LFQ experiment, heart,
 
 - stomach:
   - PXD008840: LFQ experiment, stomach, 504 raw files
