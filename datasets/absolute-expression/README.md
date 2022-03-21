@@ -39,10 +39,12 @@ For each category the factor value is different:
 - PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
 - PXD020192: LFQ experiment, tissue proteomes, 92 raw files
 - PXD010271: LFQ experiment, tissue proteomes, 220 raw files
+- PXD008970: LFQ experiment, tissue citrullination proteomes. Notes: data not available
 
 - brain:
   - PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
   - PXD012755: LFQ experiment, brain, 32 raw files
+  - PXD004143: LFQ experiemnt, brain, 4 raw files
 
 - skin:
   - PXD019909: LFQ experiment, skin, 152 raw files
@@ -51,12 +53,31 @@ For each category the factor value is different:
   - PXD008934: LFQ experiment, heart, 34 raw files
   - PXD006675: LFQ experiment, heart, 594 raw files
   - PXD005736: LFQ experiment, heart, 30 raw files
+  - PXD008722: LFQ experiment, heart, 252 raw files
+  - PXD021261: LFQ experiment, heart, 150 raw files (Note: This is instrument Bruker)
+  - PXD018678: LFQ experiment, heart, 11 raw files
+  - PXD018678: DIA-LFQ experiment, heart, 48 raw files
+  - PXD012636: LFQ experiment, heart, 91 raw files
+  - PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
+  - PXD011349: LFQ experiment, heart, 55 raw files
+  - PXD028099: LFQ experiment, heart, 20 raw files
 
 - stomach:
   - PXD008840: LFQ experiment, stomach, 504 raw files
 
 - lung:
   - PXD004700: LFQ experiment, lung, 46 raw files
+  - PXD004682: LFQ experiment, lung, 96 raw files
+  - PXD004684: LFQ experiment, lung, 8 raw files
+
+- anterior pituitary gland
+  - PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files
+
+- colon
+  - PXD004452: LFQ experiment, colon, 216 raw files
+
+- colonic mucosa
+  - PXD001608: LFQ experiment, colonic mucosa, 30 raw files
 
 - Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
 - Choroid tissue (https://www.ebi.ac.uk/pride/archive/projects/PXD002273) (To be annotated)
