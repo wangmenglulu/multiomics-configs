@@ -44,6 +44,7 @@ For each category the factor value is different:
   - [x] PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
   - [x] PXD012755: LFQ experiment, brain, 32 raw files
   - [x] PXD004143: LFQ experiment, brain, 4 raw files
+  - [ ] PXD005445
 
 - skin:
   - PXD019909: LFQ experiment, skin, 152 raw files
@@ -79,11 +80,17 @@ For each category the factor value is different:
 - colonic mucosa
   - PXD001608: LFQ experiment, colonic mucosa, 30 raw files
 
-- Ovarian Tissue Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD008183) (To be annotated)
-- Choroid tissue (https://www.ebi.ac.uk/pride/archive/projects/PXD002273) (To be annotated)
-- Brain Proteome (https://www.ebi.ac.uk/pride/archive/projects/PXD005445) (Annotated wronly)
-- Pancreas (https://www.iprox.org/page/project.html?id=IPX0001745000) (To be annotated)
-- Eccrine sweat glands (https://www.ebi.ac.uk/pride/archive/projects/PXD010637) (To be annotated)
+- ovary
+  - [ ] PXD008183
+
+- Choroid
+  - [ ] PXD002273
+
+- pancreas
+  - [ ] https://www.iprox.org/page/project.html?id=IPX0001745000
+
+- Eccrine sweat glands
+  - [ ] PXD010637
 
 
 ### Plasma
