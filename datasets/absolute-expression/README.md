@@ -39,6 +39,7 @@ For each category the factor value is different:
 - [ ] PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
 - [x] PXD020192: LFQ experiment, tissue proteomes, 92 raw files
 - [ ] PXD010271: LFQ experiment, tissue proteomes, 220 raw files
+- [ ] PXD004452: LFQ experiment, (colon, liver, prostate), 216 raw files
 
 - brain:
   - [x] PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
@@ -75,7 +76,7 @@ For each category the factor value is different:
   - [ ] PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files (Note: Sample 2 removed few peptides)
 
 - colon
-  - PXD004452: LFQ experiment, colon, 216 raw files
+
 
 - colonic mucosa
   - PXD001608: LFQ experiment, colonic mucosa, 30 raw files
