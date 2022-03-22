@@ -45,7 +45,7 @@ For each category the factor value is different:
   - [x] PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
   - [x] PXD012755: LFQ experiment, brain, 32 raw files
   - [x] PXD004143: LFQ experiment, brain, 4 raw files
-  - [ ] PXD005445
+  - [ ] PXD005445: LFQ experiment, brain, 196 raw files (Note: Only generic samples)
 
 - skin:
   - PXD019909: LFQ experiment, skin, 152 raw files
@@ -75,9 +75,6 @@ For each category the factor value is different:
 - anterior pituitary gland
   - [ ] PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files (Note: Sample 2 removed few peptides)
 
-- colon
-
-
 - colonic mucosa
   - PXD001608: LFQ experiment, colonic mucosa, 30 raw files
 
@@ -92,6 +89,9 @@ For each category the factor value is different:
 
 - Eccrine sweat glands
   - [ ] PXD010637
+
+- sclera
+  - [ ] PXD022661
 
 
 ### Plasma
