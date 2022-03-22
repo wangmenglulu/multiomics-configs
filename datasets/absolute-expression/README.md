@@ -72,7 +72,7 @@ For each category the factor value is different:
   - [ ] PXD004684: LFQ experiment, lung, 8 raw files
 
 - anterior pituitary gland
-  - [ ] PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files
+  - [ ] PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files (Note: Sample 2 removed few peptides)
 
 - colon
   - PXD004452: LFQ experiment, colon, 216 raw files
@@ -95,13 +95,12 @@ For each category the factor value is different:
 
 ### Plasma
 
-- PXD011839
-- PXD004242
+- [ ] PXD011839
+- [ ] PXD004242
 
 ### Tumor datasets
 
-- PXD012431 (High-throughput mass spectrometry and bioinformatics analysis of breast cancer proteomic data):
-    - SDRF: https://github.com/bigbio/proteomics-metadata-standard/blob/4905da47fbbbdd9879333b76687028e4b88f5459/annotated-projects/PXD012431/sdrf.tsv
-    - PRIDE: https://www.ebi.ac.uk/pride/archive/projects/PXD012431
-    - Publication: http://europepmc.org/article/MED/31294064
-    - biology: breast cancer, label-free
+- [ ] PXD012431
+
+### Cell lines
+
