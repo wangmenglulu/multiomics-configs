@@ -13,7 +13,7 @@ def main(input, property, subproperty, project):
     df = pd.read_csv(input, sep='\t', skip_blank_lines=False)
     name_project = ""
     if(project is not None):
-      name_project = 'sdrf-' + project + "-"
+      name_project = project + "-"
     if(subproperty is None):
       d = dict(tuple(df.groupby(property)))
     else:
