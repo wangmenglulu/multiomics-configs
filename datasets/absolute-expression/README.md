@@ -75,7 +75,7 @@ For each category the factor value is different:
 - anterior pituitary gland
   - [x] PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files (Note: Sample 2 removed few peptides)
 
-- colonic mucosa
+- colon mucosa
   - PXD001608: LFQ experiment, colonic mucosa, 30 raw files
 
 - ovary
