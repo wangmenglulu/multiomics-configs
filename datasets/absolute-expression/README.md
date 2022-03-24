@@ -36,7 +36,7 @@ For each category the factor value is different:
 
 - [ ] PXD000561: LFQ experiment, tissue proteomes, 2212 raw files
 - [x] PXD000865: LFQ experiment, tissue proteomes, 1055 raw files
-- [ ] PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
+- [x] PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
 - [x] PXD020192: LFQ experiment, tissue proteomes, 92 raw files
 - [x] PXD010271: LFQ experiment, tissue proteomes, 220 raw files
 - [ ] PXD004452: LFQ experiment, (colon, liver, prostate), 216 raw files
