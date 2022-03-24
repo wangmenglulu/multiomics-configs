@@ -80,7 +80,7 @@ For each category the factor value is different:
 
 - ovary
   - [ ] PXD008183
-  - [ ] PXD025864
+  - [ ] PXD025864 LFQ experiment, ovary, 9 raw files
 
 - Choroid
   - [ ] PXD002273
