@@ -56,7 +56,7 @@ For each category the factor value is different:
   - [ ] PXD005736: LFQ experiment, heart, 30 raw files
   - [x] PXD008722: LFQ experiment, heart, 252 raw files
   - [ ] PXD021261: LFQ experiment, heart, 150 raw files (Note: This is instrument Bruker)
-  - [ ] PXD018678: LFQ experiment, heart, 11 raw files
+  - [x] PXD018678: LFQ experiment, heart, 11 raw files
   - [ ] PXD018678: DIA-LFQ experiment, heart, 48 raw files
   - [ ] PXD012636: LFQ experiment, heart, 91 raw files
   - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
