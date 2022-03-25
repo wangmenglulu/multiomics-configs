@@ -45,8 +45,8 @@ For each category the factor value is different:
   - [x] PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
   - [x] PXD012755: LFQ experiment, brain, 32 raw files
   - [x] PXD004143: LFQ experiment, brain, 4 raw files
-  - [ ] PXD005445: LFQ experiment, brain, 196 raw files (Note: Only generic samples)
-  - [ ] PXD006233: LFQ experiment, brain,
+  - [x] PXD005445: LFQ experiment, brain, 196 raw files (Note: Only generic samples)
+  - [x] PXD006233: LFQ experiment, brain,
 
 - skin:
   - PXD019909: LFQ experiment, skin, 152 raw files
