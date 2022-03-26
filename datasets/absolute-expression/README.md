@@ -39,13 +39,14 @@ For each category the factor value is different:
 - [x] PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
 - [x] PXD020192: LFQ experiment, tissue proteomes, 92 raw files
 - [x] PXD010271: LFQ experiment, tissue proteomes, 220 raw files
-- [ ] PXD004452: LFQ experiment, (colon, liver, prostate), 216 raw files
+- [x] PXD004452: LFQ experiment, (colon, liver, prostate), 216 raw files
 
 - brain:
   - [x] PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
   - [x] PXD012755: LFQ experiment, brain, 32 raw files
   - [x] PXD004143: LFQ experiment, brain, 4 raw files
-  - [ ] PXD005445: LFQ experiment, brain, 196 raw files (Note: Only generic samples)
+  - [x] PXD005445: LFQ experiment, brain, 196 raw files (Note: Only generic samples)
+  - [x] PXD006233: LFQ experiment, brain,
 
 - skin:
   - PXD019909: LFQ experiment, skin, 152 raw files
@@ -56,7 +57,7 @@ For each category the factor value is different:
   - [ ] PXD005736: LFQ experiment, heart, 30 raw files
   - [x] PXD008722: LFQ experiment, heart, 252 raw files
   - [ ] PXD021261: LFQ experiment, heart, 150 raw files (Note: This is instrument Bruker)
-  - [ ] PXD018678: LFQ experiment, heart, 11 raw files
+  - [x] PXD018678: LFQ experiment, heart, 11 raw files
   - [ ] PXD018678: DIA-LFQ experiment, heart, 48 raw files
   - [ ] PXD012636: LFQ experiment, heart, 91 raw files
   - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
@@ -75,11 +76,12 @@ For each category the factor value is different:
 - anterior pituitary gland
   - [x] PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files (Note: Sample 2 removed few peptides)
 
-- colonic mucosa
-  - PXD001608: LFQ experiment, colonic mucosa, 30 raw files
+- colon mucosa
+  - [x] PXD001608: LFQ experiment, colonic mucosa, 30 raw files
 
 - ovary
   - [ ] PXD008183
+  - [x] PXD025864 LFQ experiment, ovary, 9 raw files
 
 - Choroid
   - [ ] PXD002273
