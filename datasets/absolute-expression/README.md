@@ -54,7 +54,6 @@ For each category the factor value is different:
 - heart:
   - [x] PXD008934: LFQ experiment, heart, 34 raw files
   - [ ] PXD006675: LFQ experiment, heart, 594 raw files
-  - [ ] PXD005736: LFQ experiment, heart, 30 raw files
   - [x] PXD008722: LFQ experiment, heart, 252 raw files
   - [ ] PXD021261: LFQ experiment, heart, 150 raw files (Note: This is instrument Bruker)
   - [x] PXD018678: LFQ experiment, heart, 11 raw files
@@ -62,7 +61,6 @@ For each category the factor value is different:
   - [ ] PXD012636: LFQ experiment, heart, 91 raw files
   - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
   - [ ] PXD011349: LFQ experiment, heart, 55 raw files
-  - [ ] PXD028099: LFQ experiment, heart, 20 raw files
   - [ ] PXD008852: DIA-LFQ experiment, heart,
 
 - stomach:
@@ -106,4 +104,21 @@ For each category the factor value is different:
 - [ ] PXD012431
 
 ### Cell lines
+
+### Some experiments to be seen:
+
+- PXD018301
+- PXD019643 HLA atlas
+- PXD005629: A proteomic analysis of human olfactory bulb
+- PXD003539: Cell lines NCI-60 DIA
+- PXD020481
+- PXD008032: Cancer datasets different regions
+- PXD016662
+- PXD005479: NCI-60
+- PXD024111
+- PXD006921
+- PXD002775
+- PXD010142: Cell lines
+- PXD015087
+- PXD004465
 
