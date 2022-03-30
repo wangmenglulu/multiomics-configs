@@ -61,6 +61,7 @@ For each category the factor value is different:
   - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
   - [x] PXD011349: LFQ experiment, heart, 55 raw files
   - [ ] PXD008852: DIA-LFQ experiment, heart,
+  - [x] PXD005736: LFQ experiment, heart, 24 RAW files
 
 - stomach:
   - [ ] PXD008840: LFQ experiment, stomach, 504 raw files
@@ -92,6 +93,8 @@ For each category the factor value is different:
 - sclera
   - [ ] PXD022661
 
+- testis
+  - [ ] PXD009737
 
 ### Plasma
 
