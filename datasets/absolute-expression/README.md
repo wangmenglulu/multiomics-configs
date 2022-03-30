@@ -95,6 +95,7 @@ For each category the factor value is different:
 
 - testis
   - [ ] PXD009737
+  - [ ] PXD002179
 
 - kidney
   - [ ] PXD006482
