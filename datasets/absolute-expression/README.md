@@ -78,7 +78,7 @@ For each category the factor value is different:
   - [x] PXD001608: LFQ experiment, colonic mucosa, 30 raw files
 
 - ovary
-  - [ ] PXD008183
+  - [ ] PXD008183: Error quant in MS1.
   - [x] PXD025864 LFQ experiment, ovary, 9 raw files
 
 - Choroid
@@ -95,10 +95,16 @@ For each category the factor value is different:
 
 - testis
   - [ ] PXD009737
-  - [ ] PXD002179
+  - [x] PXD002179
 
 - kidney
   - [ ] PXD006482
+
+- Spermatozoon
+  - [ ] PXD003947
+
+- Liver
+  - [ ] PXD009021
 
 ### Plasma
 
