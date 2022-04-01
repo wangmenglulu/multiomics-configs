@@ -54,7 +54,7 @@ For each category the factor value is different:
 - heart:
   - [x] PXD008934: LFQ experiment, heart, 34 raw files
   - [ ] PXD006675: LFQ experiment, heart, 594 raw files
-  - [x] PXD008722: LFQ experiment, heart, 252 raw files
+  - [ ] PXD008722: LFQ experiment, heart, 252 raw files
   - [x] PXD018678: LFQ experiment, heart, 11 raw files
   - [ ] PXD018678: DIA-LFQ experiment, heart, 48 raw files
   - [ ] PXD012636: LFQ experiment, heart, 91 raw files
@@ -92,13 +92,14 @@ For each category the factor value is different:
 
 - sclera
   - [ ] PXD022661
+  - [x] PXD008999
 
 - testis
   - [ ] PXD009737
   - [x] PXD002179
 
 - kidney
-  - [ ] PXD006482
+  - [x] PXD006482
 
 - Spermatozoon
   - [ ] PXD003947
